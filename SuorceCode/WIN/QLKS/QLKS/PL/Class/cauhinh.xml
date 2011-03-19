@@ -1,0 +1,32 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="GroupHeader" iskey="true" value="GroupHeader">
+    <property name="BackColor">Cyan</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+  </property>
+  <property name="GroupHeaderActive" iskey="true" value="GroupHeaderActive">
+    <property name="BackColor">MediumAquamarine</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+  </property>
+  <property name="Background" iskey="true" value="Background">
+    <property name="BackColor2">Transparent</property>
+    <property name="BackColor">Transparent</property>
+    <property name="ForeColor">Transparent</property>
+    <property name="BorderColor">Transparent</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+      <property name="UseFont">true</property>
+      <property name="UseForeColor">true</property>
+      <property name="UseBorderColor">true</property>
+    </property>
+  </property>
+  <property name="GroupBackground" iskey="true" value="GroupBackground">
+    <property name="BackColor">Aqua</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+    </property>
+  </property>
+</XtraSerializer>

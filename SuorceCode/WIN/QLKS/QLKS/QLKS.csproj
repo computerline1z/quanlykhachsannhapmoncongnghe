@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC7A3BA0-461B-4E2E-B760-4BC1763150D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLKS</RootNamespace>
+    <AssemblyName>QLKS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PL\CMS\UcDetailRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcDetailRoom.Designer.cs">
+      <DependentUpon>UcDetailRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\UcDisplayData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\UcDisplayData.Designer.cs">
+      <DependentUpon>UcDisplayData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcLeftToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcLeftToolBar.Designer.cs">
+      <DependentUpon>UcLeftToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcListData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcListData.Designer.cs">
+      <DependentUpon>UcListData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\UcLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\UcLink.Designer.cs">
+      <DependentUpon>UcLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom.Designer.cs">
+      <DependentUpon>UcListRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcRightDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcRightDetail.Designer.cs">
+      <DependentUpon>UcRightDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcRightToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcRightToolBar.Designer.cs">
+      <DependentUpon>UcRightToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcStatusHotelToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcStatusHotelToolBar.Designer.cs">
+      <DependentUpon>UcStatusHotelToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\UcToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\UcToolBar.Designer.cs">
+      <DependentUpon>UcToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcTopToolBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcTopToolBar.Designer.cs">
+      <DependentUpon>UcTopToolBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcTotalDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcTotalDetail.Designer.cs">
+      <DependentUpon>UcTotalDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form\frmmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmmain.Designer.cs">
+      <DependentUpon>frmmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\CMS\UcDetailRoom.resx">
+      <DependentUpon>UcDetailRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcListRoom\UcDisplayData.resx">
+      <DependentUpon>UcDisplayData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcLeftToolBar.resx">
+      <DependentUpon>UcLeftToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcListData.resx">
+      <DependentUpon>UcListData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcListRoom\UcLink.resx">
+      <DependentUpon>UcLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcListRoom.resx">
+      <DependentUpon>UcListRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcRightDetail.resx">
+      <DependentUpon>UcRightDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcRightToolBar.resx">
+      <DependentUpon>UcRightToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcStatusHotelToolBar.resx">
+      <DependentUpon>UcStatusHotelToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcListRoom\UcToolBar.resx">
+      <DependentUpon>UcToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcTopToolBar.resx">
+      <DependentUpon>UcTopToolBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcTotalDetail.resx">
+      <DependentUpon>UcTotalDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmmain.resx">
+      <DependentUpon>frmmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PL\Images\Go Home.ico" />
+    <Content Include="PL\Images\House.ico" />
+    <Content Include="PL\Images\System Home.ico" />
+    <None Include="PL\Images\UcTop\Blank map.png" />
+    <Content Include="PL\Images\UcLeft\bill_menuleft.png" />
+    <Content Include="PL\Images\UcLeft\bill_trangthaiphong.png" />
+    <Content Include="PL\Images\UcLink\background.png" />
+    <Content Include="PL\Images\UcLink\bull_sitemap.png" />
+    <Content Include="PL\Images\UcLink\icon_sitemap.png" />
+    <Content Include="PL\Images\UcRight\all.png" />
+    <Content Include="PL\Images\UcRight\book.png" />
+    <Content Include="PL\Images\UcRight\empty.png" />
+    <Content Include="PL\Images\UcRight\phongban.png" />
+    <Content Include="PL\Images\UcRight\refest.png" />
+    <Content Include="PL\Images\UcRight\suachua.png" />
+    <Content Include="PL\Images\UcRight\using.png" />
+    <Content Include="PL\Images\UcRight\using1.png" />
+    <Content Include="PL\Images\UcToolBar\open.ico" />
+    <Content Include="PL\Images\UcToolBar\Delete.ico" />
+    <Content Include="PL\Images\UcToolBar\edit.ico" />
+    <Content Include="PL\Images\UcToolBar\add.ico" />
+    <Content Include="PL\Images\UcToolBar\ok.ico" />
+    <Content Include="PL\Images\UcToolBar\xmag.ico" />
+    <Content Include="PL\Images\UcToolBar\button_cancel.ico" />
+    <Content Include="PL\Images\UcToolBar\Cancel.ico" />
+    <Content Include="PL\Images\UcToolBar\refresh.ico" />
+    <Content Include="PL\Images\UcToolBar\print.ico" />
+    <Content Include="PL\Images\UcToolBar\edit-clear.ico" />
+    <Content Include="PL\Images\UcToolBar\save_all.ico" />
+    <Content Include="PL\Images\UcTop\Blank map1.png" />
+    <Content Include="PL\Images\UcTop\checkin.png" />
+    <Content Include="PL\Images\UcTop\checkout.png" />
+    <Content Include="PL\Images\UcTop\Payment.png" />
+    <Content Include="PL\Images\UcTop\Reports.png" />
+    <Content Include="PL\Images\UcTop\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\BL\" />
+    <Folder Include="BLL\Object\" />
+    <Folder Include="DAL\Core\" />
+    <Folder Include="DAL\DAO\" />
+    <Folder Include="DAL\Data\" />
+    <Folder Include="PL\Class\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
