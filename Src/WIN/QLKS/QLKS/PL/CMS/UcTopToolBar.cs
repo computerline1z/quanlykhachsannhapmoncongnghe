@@ -15,5 +15,6 @@ namespace QLKS.PL.CMS
         {
             InitializeComponent();
         }
+
     }
 }

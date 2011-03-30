@@ -40,3 +40,25 @@ C:\Documents and Settings\Admin\My Documents\QLKS\SuorceCode\WIN\QLKS\QLKS\obj\D
 C:\Documents and Settings\Admin\My Documents\QLKS\SuorceCode\WIN\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
 C:\Documents and Settings\Admin\My Documents\QLKS\SuorceCode\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
 C:\Documents and Settings\Admin\My Documents\QLKS\SuorceCode\WIN\QLKS\QLKS\obj\Debug\QLKS.exe.licenses
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.pdb
+E:\Project\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.exe
+E:\Project\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.pdb
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmWaiting.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcDetailRoom.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcDisplayData.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcLeftToolBar.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcListData.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcLink.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcListRoom.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcRightDetail.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcRightToolBar.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcStatusHotelToolBar.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcToolBar.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcTopToolBar.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcTotalDetail.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmmain.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe.licenses
