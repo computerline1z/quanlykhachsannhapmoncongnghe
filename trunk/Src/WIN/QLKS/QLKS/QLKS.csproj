@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PL\Form\frmWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmWaiting.Designer.cs">
+      <DependentUpon>frmWaiting.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\CMS\UcDetailRoom.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -132,6 +138,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\Form\frmWaiting.resx">
+      <DependentUpon>frmWaiting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\UcDetailRoom.resx">
       <DependentUpon>UcDetailRoom.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,6 +204,7 @@
   <ItemGroup>
     <Content Include="PL\Images\Go Home.ico" />
     <Content Include="PL\Images\House.ico" />
+    <Content Include="PL\Images\Images Dyamic\loading.gif" />
     <Content Include="PL\Images\System Home.ico" />
     <None Include="PL\Images\UcTop\Blank map.png" />
     <Content Include="PL\Images\UcLeft\bill_menuleft.png" />
