@@ -18,9 +18,9 @@ namespace QLKS
 
         private void frmmain_Load(object sender, EventArgs e)
         {
-            this.Opacity = 20;
-            frmWaiting f = new frmWaiting();
-            f.ShowDialog();
+            //this.Opacity = 20;
+            //frmWaiting f = new frmWaiting();
+            //f.ShowDialog();
         }
     }
 }
