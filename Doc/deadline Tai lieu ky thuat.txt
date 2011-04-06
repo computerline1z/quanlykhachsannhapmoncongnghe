@@ -4,7 +4,9 @@ thanh vien da commit:
  Nguyen Bao Phuong
  Vuong Nhat Duy
 
-yeu cau: vuong nhat duy 
+yeu cau:  nguyen bao phuong
  kiem tra lai :
     + UD 9
     + UD 7
+ ly do: thong tin dua vao khong duoc kiem tra va qua trung trung
+hien tai : vuong nhat duy dang tien hanh sua dum
