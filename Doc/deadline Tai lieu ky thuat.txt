@@ -3,3 +3,8 @@ yeu cau cac thanh vien dung han
 thanh vien da commit:
  Nguyen Bao Phuong
  Vuong Nhat Duy
+
+yeu cau: vuong nhat duy 
+ kiem tra lai :
+    + UD 9
+    + UD 7
