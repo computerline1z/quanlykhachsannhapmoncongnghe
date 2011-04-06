@@ -1,0 +1,5 @@
+Tim hieu cac cong nghe sau:(Co the demo code up trong Thu muc Demo Code For Project)
+ASP Membership
+MutiThread
+Thread
+Ma Hoa Bang thuat toan roi bit
