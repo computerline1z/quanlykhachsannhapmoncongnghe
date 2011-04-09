@@ -23,3 +23,5 @@ Nguyen bao phuong :Chinh sua lai loi cua tai lieu dum nhe
 -----------------------------------------------------------------------------
 Da câp nhât thong tin moi ve ER theo y thay anh em sem va tien hanh cho biet so do logic nhe
 
+vuong nhat duy : thiet ke logo cho nhom song chua ? sao thay im re vay?
+
