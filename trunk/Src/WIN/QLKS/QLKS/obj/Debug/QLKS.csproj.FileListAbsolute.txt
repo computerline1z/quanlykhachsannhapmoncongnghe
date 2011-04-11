@@ -62,25 +62,3 @@ E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmmain.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe.licenses
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.pdb
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.exe
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.pdb
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\ResolveAssemblyReference.cache
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmWaiting.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcDetailRoom.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcDisplayData.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcLeftToolBar.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcListData.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcLink.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcListRoom.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcRightDetail.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcRightToolBar.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcStatusHotelToolBar.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcToolBar.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcTopToolBar.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcTotalDetail.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmmain.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
-D:\Project\KHTN\Nhap Mon CNPM\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe.licenses
