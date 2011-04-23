@@ -7,7 +7,7 @@ using System.Data;
 
 namespace ModuleDALCore
 {
-    internal class DatabaseHelper:IDisposable
+    public class DatabaseHelper : IDisposable
     {
         private readonly ProviderType defaultProvider;
         private DbCommand objCommand;
@@ -104,10 +104,6 @@ namespace ModuleDALCore
         {
             throw new System.NotImplementedException();
         }
-        internal int ExecuteNonQuery(string spName, string[] Params, object[] Values, DBConnectionState state, StoreProceduceParameterDirection sp)
-        {
-            throw new System.NotImplementedException();
-        }
         private string FormatParameter(string Name)
         {
             throw new System.NotImplementedException();
@@ -117,6 +113,10 @@ namespace ModuleDALCore
             throw new System.NotImplementedException();
         }
         internal int ExecuteNonQuery(string query, DBConnectionState connectionstate)
+        {
+            throw new System.NotImplementedException();
+        }
+        internal int ExecuteNonQuery(string query, CommandType commandtype)
         {
             throw new System.NotImplementedException();
         }

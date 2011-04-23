@@ -35,9 +35,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ModuleDALCore.DBManager">
-    <Position X="10.5" Y="0.5" Width="2.25" />
+    <Position X="10.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAAAAAACAABAAABACAQAAACAAAAAAABAAAAA=</HashCode>
+      <HashCode>AgAAAAAAAAAAASCAABAAAFACAQAAACABAAAAABAAAAA=</HashCode>
       <FileName>DBManager.cs</FileName>
     </TypeIdentifier>
   </Class>

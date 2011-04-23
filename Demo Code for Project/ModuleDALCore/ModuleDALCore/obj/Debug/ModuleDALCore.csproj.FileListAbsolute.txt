@@ -1,3 +1,6 @@
 C:\Documents and Settings\Admin\Desktop\ModuleDALCore\ModuleDALCore\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Admin\Desktop\ModuleDALCore\ModuleDALCore\obj\Debug\ModuleDALCore.Properties.Resources.resources
 C:\Documents and Settings\Admin\Desktop\ModuleDALCore\ModuleDALCore\obj\Debug\ModuleDALCore.csproj.GenerateResource.Cache
+E:\Project\Demo Code for Project\ModuleDALCore\ModuleDALCore\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Demo Code for Project\ModuleDALCore\ModuleDALCore\obj\Debug\ModuleDALCore.Properties.Resources.resources
+E:\Project\Demo Code for Project\ModuleDALCore\ModuleDALCore\obj\Debug\ModuleDALCore.csproj.GenerateResource.Cache
