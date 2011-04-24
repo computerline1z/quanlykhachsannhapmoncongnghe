@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WorkerThread">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\WorkerThread.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\WorkerThread.suo">
+</Property><Property Name="Date" Value="Friday, April 16, 2010">
+</Property><Property Name="Time" Value="12:54 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WorkerThread.sln" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\WorkerThread.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WorkerThread.suo" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\WorkerThread.suo">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="WorkerThread.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\WorkerThread.csproj">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="LongProcess.cs" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\LongProcess.cs">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="MainForm.cs" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="licenses.licx" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\licenses.licx">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="MainForm.resx" Description="File successfully backed up as C:\Documents and Settings\Admin\Desktop\WorkerThread_demo\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="WorkerThread.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WorkerThread" Source="WorkerThread.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WorkerThread.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WorkerThread.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WorkerThread" Source="WorkerThread.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
