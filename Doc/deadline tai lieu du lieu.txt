@@ -1,19 +1,32 @@
 thong bao:
 ngay 26/04/2011 deadline so do logic va so do lop
 cac thanh vien : nguyen bao phuong vui long hoan thanh so do logic 
-                 nguyen nhat duy  vui long hoan thanh so do lop
-hien nay da co so do class cua lop core dal anh em vui long download suong sem chi tiet neu co ri hoi lien de thuc hien chia phan code cho anh em
--------------------5h59 am---------------------------------------------------------
+                 vuong nhat duy  vui long hoan thanh so do lop
+hien nay da co so do class cua lop core dal anh em vui long download xuong xem chi tiet
+neu co ri hoi lien de thuc hien chia phan code cho anh em
+
+====================================================================================
+
+------------------- 27/04/2011 - 05:59 AM - Ha Ngoc Thanh ------------------
 da hoan thanh 90% bao cao cho lan 2 
 con phan con lai la mieu ta class ong phuong va ong duy chia nhau lam not nhe
 (con 11 ba)
 -------------------- DAL CORE ----------------
 ve DAL Core thanh se viet DATAHELPER va DBFACTORY
---- PHUONG VIET DBMANAGERBASE
-----DUY VIET DBMANAGER
----neu co ri ko hieu PM NHE
-----------------------------------
+- PHUONG VIET DBMANAGERBASE
+- DUY VIET DBMANAGER
+- Neu co gi ko hieu PM NHE
+----------------------------------------------
 
 VE CORE REPORT SE POST SAU
-CORE CRYR(MA HOA ) DA VIET SONG A EM SEM CO VAN DE RI NOI NHE
-  
+CORE CRYR(MA HOA ) DA VIET XONG A EM SEM CO VAN DE RI NOI NHE
+
+====================================================================================
+
+------------------ 27/04/2011 - 07:06 AM - Vuong Nhat Duy ------------------
+- Da hoan thanh viec mo ta cac class:
+	LOAIKH, QUAN, THANHPHO, QUOCGIA, PHONG, LOAIPHONG
+- Dong thoi da them vao danh sach class 1 class QUOCGIA nam o vi tri so 5.
+- Phan con lai Phuong dam nhiem nhe.
+
+====================================================================================
