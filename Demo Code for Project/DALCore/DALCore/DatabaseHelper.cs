@@ -12,12 +12,8 @@ namespace ModuleDALCore
 {
     public class DatabaseHelper : IDisposable
     {
+        const int Extreme = -1;
         private readonly ProviderType defaultProvider;
-
-        public ProviderType DefaultProvider
-        {
-            get { return defaultProvider; }
-        } 
         private DbCommand objCommand;
         internal DbCommand Command
         {
@@ -52,30 +48,63 @@ namespace ModuleDALCore
             this.StrConnectionString = connectionstring;
             this.Factory = DbFactory.GetProvider(provider);
             this.Connection = this.Factory.CreateConnection();
+            this.Command = this.Factory.CreateCommand();
+            this.Connection.ConnectionString = connectionstring;
+            this.Command.Connection = this.Connection;
+            this.defaultProvider=provider;
         }
         internal int AddParameter(DbParameter parameter)
         {
-            throw new System.NotImplementedException();
+            return this.Command.Parameters.Add(parameter);
         }
         internal int AddParameter(string name, object value)
         {
-            throw new System.NotImplementedException();
+            DbParameter pa = this.Factory.CreateParameter();
+            pa.ParameterName = name;
+            pa.Value = value;
+            return this.Command.Parameters.Add(pa);
         }
         internal int AddParameter(string name, object value, StoreProceduceParameterDirection sp)
         {
-            throw new System.NotImplementedException();
+            DbParameter pa = this.Factory.CreateParameter();
+            pa.ParameterName = name;
+            pa.Value = value;
+            pa.DbType = DbFactory.Type2DbType(value.GetType());
+            switch (sp)
+            {
+                case StoreProceduceParameterDirection.Input:
+                    pa.Direction = ParameterDirection.Input;
+                    break;
+                case StoreProceduceParameterDirection.InputOutput:
+                    pa.Direction = ParameterDirection.InputOutput;
+                    break;
+                case StoreProceduceParameterDirection.Output:
+                    pa.Direction = ParameterDirection.Output;
+                    break;
+                case StoreProceduceParameterDirection.ReturnValues:
+                    pa.Direction = ParameterDirection.ReturnValue;
+                    break;
+            }
+            return this.Command.Parameters.Add(pa);
+
         }
         internal void BeginTransaction()
         {
-            throw new System.NotImplementedException();
+            if (this.Connection.State == ConnectionState.Closed)
+            {
+                this.Connection.Open();
+            }
+            this.Command.Transaction = this.Connection.BeginTransaction();
         }
         internal void CommitTransaction()
         {
-            throw new System.NotImplementedException();
+            this.Command.Transaction.Commit();
+            this.Connection.Close();
         }
         internal void RollBackTransaction()
         {
-            throw new System.NotImplementedException();
+            this.Command.Transaction.Rollback();
+            this.Connection.Close();
         }
         public void Dispose()
         {
@@ -88,67 +117,215 @@ namespace ModuleDALCore
         }
         internal DataSet ExecuteDataset(string query, CommandType ct, DBConnectionState dc)
         {
-            throw new System.NotImplementedException();
+            DbDataAdapter da = this.Factory.CreateDataAdapter();
+            this.Command.CommandText = query;
+            this.Command.CommandType = ct;
+            this.Command.CommandTimeout = 90;
+            da.SelectCommand = this.Command;
+            DataSet ds = new DataSet();
+            try
+            {
+                if (this.Connection.State == ConnectionState.Closed)
+                    this.Connection.Open();
+                da.Fill(ds);
+            }
+            catch (Exception ex)
+            {
+
+                throw new InvalidProgramException("Can't Fill Data  because erorr is " + ex.Message.ToString()); ;
+            }
+            finally
+            {
+                this.Command.Parameters.Clear();
+                if (dc == DBConnectionState.CloseOnExit && this.Connection.State == ConnectionState.Open)
+                {
+                    this.Connection.Close();
+                }
+            }
+            return ds;
         }
         internal DataSet ExecuteDataset(string query)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteDataset(query, CommandType.Text, DBConnectionState.CloseOnExit);
         }
         internal DataSet ExecuteDataset(string query, DBConnectionState dc)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteDataset(query, CommandType.Text, dc);
         }
         internal DataSet ExecuteDataset(string query, CommandType type)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteDataset(query, type, DBConnectionState.CloseOnExit);
         }
         internal DataSet ExecuteDataset(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            DbDataAdapter da = this.Factory.CreateDataAdapter();
+            this.Command.CommandText = spName;
+            this.Command.CommandType = CommandType.StoredProcedure;
+            this.Command.CommandTimeout = 0x2328;
+            DataSet ds = new DataSet();
+            try
+            {
+                for (int i = 0; i < Params.Length; i++)
+                {
+                    this.AddParameter(this.FormatParameter(Params[i]), values[i]);
+                }
+                if (this.Connection.State == ConnectionState.Closed)
+                    this.Connection.Open();
+                da.SelectCommand = this.Command;
+                da.Fill(ds);
+            }
+            catch(Exception ex)
+            {
+                throw new InvalidProgramException("Can't Fill Data  because erorr is " + ex.Message.ToString());
+            }
+            finally
+            {
+                this.Command.Parameters.Clear();
+                if (state == DBConnectionState.CloseOnExit && this.Connection.State == ConnectionState.Open)
+                {
+                    this.Connection.Close();
+                }
+            }
+            return ds;
         }
         internal DataTable ExecuteDataTable(string query, CommandType type, DBConnectionState dc)
         {
-            throw new System.NotImplementedException();
+            DbDataAdapter da = this.Factory.CreateDataAdapter();
+            this.Command.CommandText = query;
+            this.Command.CommandType = type;
+            da.SelectCommand = this.Command;
+            DataTable dt = new DataTable();
+            try
+            {
+                if (this.Connection.State == ConnectionState.Closed)
+                    this.Connection.Open();
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidProgramException("Can't Fill Data  because erorr is " + ex.Message.ToString());
+            }
+            finally
+            {
+                this.Command.Parameters.Clear();
+                if (dc == DBConnectionState.CloseOnExit && this.Connection.State == ConnectionState.Open)
+                    this.Connection.Close();
+            }
+            return dt;
         }
         internal DataTable ExecuteDataTable(string query)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteDataTable(query, CommandType.Text, DBConnectionState.CloseOnExit);
         }
         internal DataTable ExecuteDataTable(string query, CommandType type)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteDataTable(query, CommandType.Text);
         }
         internal DataTable ExecuteDataTable(string query, DBConnectionState dc)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteDataTable(query, CommandType.Text);
         }
         internal DataTable ExecuteDataTable(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            DbDataAdapter da = this.Factory.CreateDataAdapter();
+            this.Command.CommandText = spName;
+            this.Command.CommandType = CommandType.StoredProcedure;
+            this.Command.CommandTimeout = 90;
+            DataTable dt = new DataTable();
+            try
+            {
+                for (int i = 0; i < Params.Length; i++)
+                {
+                    this.AddParameter(this.FormatParameter(Params[i]), values[i]);
+                }
+                if (this.Connection.State == ConnectionState.Open)
+                    this.Connection.Open();
+                da.SelectCommand = this.Command;
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+
+                throw new InvalidProgramException("Can't Fill Data  because erorr is " + ex.Message.ToString());
+            }
+            finally
+            {
+                this.Command.Parameters.Clear();
+                if (state == DBConnectionState.CloseOnExit && this.Connection.State == ConnectionState.Open)
+                    this.Connection.Close();
+            }
+            return dt;
         }
         internal int ExecuteNonQuery(string spName, string[] Params, object[] Values, DBConnectionState state, StoreProceduceParameterDirection sp)
         {
-            throw new System.NotImplementedException();
+            this.Command.CommandText = spName;
+            this.Command.CommandType = CommandType.StoredProcedure;
+            this.Command.CommandTimeout = 90;
+            try
+            {
+                for (int i = 0; i < Params.Length; i++)
+                {
+                    this.AddParameter(this.FormatParameter(Params[i]), Values[i]);
+                }
+                if (this.Connection.State == ConnectionState.Closed)
+                    this.Connection.Open();
+                if (sp == StoreProceduceParameterDirection.ReturnValues)
+                {
+                    this.AddParameter(this.FormatParameter("RETURN_VALUE"), 0, sp);
+                    this.Command.ExecuteNonQuery();
+                    return Convert.ToInt32(this.Command.Parameters["RETURN_VALUE"].Value.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw new InvalidProgramException("Can't Excute Data beacause erorr is " + ex.ToString()); ;
+            }
+            finally
+            {
+                this.Command.Parameters.Clear();
+                if (state == DBConnectionState.CloseOnExit && this.Connection.State == ConnectionState.Open)
+                    this.Connection.Close();
+            }
+            return Extreme;
         }
         private string FormatParameter(string Name)
         {
-            throw new System.NotImplementedException();
+            switch (this.defaultProvider)
+            { 
+                case ProviderType.SqlServer:
+                    return "@" + Name;
+                case ProviderType.Oracle:
+                    return Name;
+            }
+            return "?";
         }
         internal int ExecuteNonQuery(string query)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteNonQuery(query, CommandType.Text,DBConnectionState.CloseOnExit);
         }
         internal int ExecuteNonQuery(string query, DBConnectionState connectionstate)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteNonQuery(query,  CommandType.Text,connectionstate);
         }
         internal int ExecuteNonQuery(string query, CommandType commandtype)
         {
-            throw new System.NotImplementedException();
+            return this.ExecuteNonQuery(query, commandtype,DBConnectionState.CloseOnExit);
         }
         internal int ExecuteNonQuery(string query, CommandType commandtype, DBConnectionState connectionstate)
         {
-            throw new System.NotImplementedException();
+            this.Command.CommandText = query;
+            this.Command.CommandType = commandtype;
+            this.Command.CommandTimeout = 90;
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                
+                throw new InvalidProgramException("Can't Excute Data beacause erorr is " + ex.ToString());
+            }
         }
         internal DbDataReader ExecuteReader(string query)
         {
