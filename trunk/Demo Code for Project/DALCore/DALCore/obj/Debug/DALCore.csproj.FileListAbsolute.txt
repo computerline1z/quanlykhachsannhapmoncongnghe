@@ -3,3 +3,8 @@ C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\bin\Debug\DALCore.d
 C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\bin\Debug\DALCore.pdb
 C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\obj\Debug\DALCore.dll
 C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\obj\Debug\DALCore.pdb
+E:\Project\Demo Code for Project\DALCore\DALCore\bin\Debug\DALCore.dll
+E:\Project\Demo Code for Project\DALCore\DALCore\bin\Debug\DALCore.pdb
+E:\Project\Demo Code for Project\DALCore\DALCore\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\Demo Code for Project\DALCore\DALCore\obj\Debug\DALCore.dll
+E:\Project\Demo Code for Project\DALCore\DALCore\obj\Debug\DALCore.pdb
