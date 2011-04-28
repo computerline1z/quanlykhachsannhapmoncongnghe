@@ -1,0 +1,5 @@
+C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\bin\Debug\DALCore.dll
+C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\bin\Debug\DALCore.pdb
+C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\obj\Debug\DALCore.dll
+C:\Documents and Settings\Admin\Desktop\Demo\DALCore\DALCore\obj\Debug\DALCore.pdb
