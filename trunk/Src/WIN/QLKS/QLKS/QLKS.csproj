@@ -36,6 +36,7 @@
     <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -52,6 +53,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\BL\SecurityManager.cs" />
+    <Compile Include="BLL\BL\Sys_AuthorizationBUS.cs" />
+    <Compile Include="BLL\Common\MethodBrowsableAttribute.cs" />
+    <Compile Include="BLL\Common\Sys_AuthorizationAttribute.cs" />
+    <Compile Include="BLL\Object\LT_CT_HOADON.cs" />
+    <Compile Include="BLL\Object\LT_CT_PHIEUTHUE.cs" />
+    <Compile Include="BLL\Object\LT_HOADON.cs" />
+    <Compile Include="BLL\Object\LT_KHACHHANG.cs" />
+    <Compile Include="BLL\Object\LT_LOAIKH.cs" />
+    <Compile Include="BLL\Object\LT_LOAIPHONG.cs" />
+    <Compile Include="BLL\Object\LT_PHIEUTHUE.cs" />
+    <Compile Include="BLL\Object\LT_PHONG.cs" />
+    <Compile Include="BLL\Object\LT_QUAN.cs" />
+    <Compile Include="BLL\Object\LT_QUOCGIA.cs" />
+    <Compile Include="BLL\Object\LT_THAMSO.cs" />
+    <Compile Include="BLL\Object\LT_THANHPHO.cs" />
+    <Compile Include="BLL\Object\NS_CHUCVU.cs" />
+    <Compile Include="BLL\Object\NS_NHANVIEN.cs" />
+    <Compile Include="BLL\Object\Sys_Authorization.cs" />
+    <Compile Include="BLL\Object\Sys_Groups.cs" />
+    <Compile Include="BLL\Object\Sys_GroupsAuthorization.cs" />
+    <Compile Include="BLL\Object\Sys_GroupUser.cs" />
+    <Compile Include="BLL\Object\Sys_Menu.cs" />
+    <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
+    <Compile Include="BLL\Object\Sys_MoDules.cs" />
+    <Compile Include="BLL\Object\Sys_User.cs" />
     <Compile Include="PL\Form\frmWaiting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -240,8 +267,6 @@
     <Content Include="PL\Images\UcTop\Settings.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\BL\" />
-    <Folder Include="BLL\Object\" />
     <Folder Include="DAL\Core\" />
     <Folder Include="DAL\DAO\" />
     <Folder Include="DAL\Data\" />

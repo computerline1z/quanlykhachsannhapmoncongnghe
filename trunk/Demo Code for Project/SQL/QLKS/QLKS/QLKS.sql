@@ -62,6 +62,8 @@ create table LT_KHACHHANG
 	HOKH nvarchar(10),
 	TENKH nvarchar(20),
 	CMND varchar(12),
+	GIOITINH bit,
+	TUOI int,
 	PASSPORT varchar(20),
 	DIACHI nvarchar(50),
 	SODT varchar(30),
@@ -538,6 +540,8 @@ create proc SpLT_KHACHHANG
     @TENKH nvarchar(20)=null,
     @CMND varchar(12)=null,
     @PASSPORT varchar(20)=null,
+    @GIOITINH bit=0,
+	@TUOI int=0,
     @DIACHI nvarchar(50)=null,
     @SODT varchar(30)=null,
     @MALKH varchar(10)=null,
@@ -567,7 +571,9 @@ begin
 											MALKH,
 											MAQUAN,
 											MATP,
-											MAQG)
+											MAQG,
+											GIOITINH,
+											TUOI)
 										VALUES (
 											@MAKH,
 											@HOKH,
@@ -579,7 +585,9 @@ begin
 											@MALKH,
 											@MAQUAN,
 											@MATP,
-											@MAQG)
+											@MAQG,
+											@GIOITINH,
+											@TUOI)
 					return 1
 				end
 		end
@@ -597,7 +605,9 @@ begin
 						SODT=@SODT,
 						MAQUAN=@MAQUAN,
 						MATP=@MATP,
-						MAQG=@MAQG
+						MAQG=@MAQG,
+						GIOITINH=@GIOITINH,
+						TUOI=@TUOI
 					where MAKH=@MAKH
 					return 1
 				end
