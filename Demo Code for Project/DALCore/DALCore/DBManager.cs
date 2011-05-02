@@ -13,7 +13,7 @@ namespace ModuleDALCore
 
         static DBManager()
         {
-            throw new System.NotImplementedException();
+           
         }
 
         private DBManager(ProviderType type, string Connectionstring)
@@ -34,114 +34,135 @@ namespace ModuleDALCore
 
         public int AddParameter(DbParameter pa)
         {
-            throw new System.NotImplementedException();
+            return this.DataHelpper.AddParameter(pa);
         }
         public int AddParameter(string name, object value)
         {
-            throw new System.NotImplementedException();
+            return this.DataHelpper.AddParameter(name, value);
         }
         public int AddParameter(string name, object value, StoreProceduceParameterDirection sp)
         {
-            throw new System.NotImplementedException();
+            return this.DataHelpper.AddParameter(name, value, sp);
         }
 
         private void CloseConnection()
         {
-            throw new System.NotImplementedException();
+            if (base.IsOpen)
+                base.Close();
+            base.IsOpen = false;
         }
 
         public void OpenConnection(string Connectionstring)
         {
-            throw new System.NotImplementedException();
+            if (!base.IsOpen)
+                base.Open(Connectionstring);
+            base.IsOpen = true;
         }
 
         public static void Release()
         {
-            throw new System.NotImplementedException();
+            if (_intance != null)
+            {
+                _intance.CloseConnection();
+                _intance = null;
+            }
         }
 
         public DataSet ExecuteDataSet(string query)
         {
-            throw new System.NotImplementedException();
+            base.Dataset = base.DataHelpper.ExecuteDataset(query);
+            return base.Dataset;
         }
         public DataSet ExecuteDataSet(string query, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            base.Dataset = base.DataHelpper.ExecuteDataset(query, state);
+            return base.Dataset;
         }
         public DataSet ExecuteDataSet(string spName, string[] Params, object[] value)
         {
-            throw new System.NotImplementedException();
+            base.Dataset = base.DataHelpper.ExecuteDataset(spName, Params, value, DBConnectionState.CloseOnExit);
+            return base.Dataset;
         }
         public DataSet ExecuteDataSet(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            base.Dataset = base.DataHelpper.ExecuteDataset(spName, Params, values, state);
+            return base.Dataset;
         }
         public DataTable ExecuteDataTable(string query)
         {
-            throw new System.NotImplementedException();
+            base.Datatable = base.DataHelpper.ExecuteDataTable(query);
+            return base.Datatable;
         }
         public DataTable ExecuteDataTable(string query, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            base.Datatable = base.DataHelpper.ExecuteDataTable(query, state);
+            return base.Datatable;
         }
         public DataTable ExecuteDataTable(string spName, string[] Params, object[] values)
         {
-            throw new System.NotImplementedException();
+            base.Datatable = base.DataHelpper.ExecuteDataTable(spName, Params, values, DBConnectionState.CloseOnExit);
+            return base.Datatable;
         }
         public DataTable ExecuteDataTable(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            base.Datatable = base.DataHelpper.ExecuteDataTable(spName, Params, values, state);
+            return base.Datatable;
         }
-
         public int ExecuteNonQuery(string query)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteNonQuery(query);
         }
         public int ExecuteNonQuery(string query, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteNonQuery(query, state);
         }
         public int ExecuteNonQuery(string spName, string[] Params, object[] values)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteNonQuery(spName, Params, values, DBConnectionState.CloseOnExit, StoreProceduceParameterDirection.ReturnValues);
         }
         public int ExecuteNonQuery(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteNonQuery(spName, Params, values, state, StoreProceduceParameterDirection.ReturnValues);
         }
-
+        public int ExecuteNonQueryWithTransaction(string query, CommandType type, DBConnectionState connectionstate)
+        {
+            return base.DataHelpper.ExecuteNonQueryWithTransaction(query, type, connectionstate);
+        }
         public DbDataReader ExecuteReader(string query)
         {
-            throw new System.NotImplementedException();
+            base.Datareader=base.DataHelpper.ExecuteReader(query);
+            return base.Datareader;
         }
         public DbDataReader ExecuteReader(string query, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            base.Datareader= base.DataHelpper.ExecuteReader(query, state);
+            return base.Datareader;
         }
         public DbDataReader ExecuteReader(string spName, string[] Params, object[] values)
         {
-            throw new System.NotImplementedException();
+            base.Datareader= base.DataHelpper.ExecuteReader(spName, Params, values, DBConnectionState.CloseOnExit);
+            return base.Datareader;
         }
         public DbDataReader ExecuteReader(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            base.Datareader = base.DataHelpper.ExecuteReader(spName, Params, values, state);
+            return base.Datareader;
         }
-
         public object ExecuteScalar(string query)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteScalar(query);
         }
         public object ExecuteScalar(string query, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteScalar(query, state);
         }
         public object ExecuteScalar(string spName, string[] Params, object[] values)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteScalar(spName, Params, values, DBConnectionState.CloseOnExit);
         }
         public object ExecuteScalar(string spName, string[] Params, object[] values, DBConnectionState state)
         {
-            throw new System.NotImplementedException();
+            return base.DataHelpper.ExecuteScalar(spName, Params, values, state);
         }
         /// <summary>
         /// ham khoi tao class luon luon goi ham nay truoc khi chay
