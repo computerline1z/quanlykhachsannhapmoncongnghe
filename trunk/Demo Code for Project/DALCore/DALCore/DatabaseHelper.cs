@@ -338,6 +338,36 @@ namespace ModuleDALCore
             return i;
 
         }
+        internal int ExecuteNonQueryWithTransaction(string query, CommandType type, DBConnectionState connectionstate)
+        {
+            this.Command.CommandText = query;
+            this.Command.CommandType = type;
+            this.Command.CommandTimeout = 90;
+            int i = Extreme;
+            try
+            {
+                if (this.Connection.State == ConnectionState.Closed)
+                {
+                    this.Connection.Open();
+                    this.Command.Transaction = this.Connection.BeginTransaction();
+                }
+                i = this.Command.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw new InvalidProgramException("Can't Excute Data beacause erorr is " + ex.ToString());
+            }
+            finally
+            {
+                this.Command.Parameters.Clear();
+                if (connectionstate == DBConnectionState.CloseOnExit) ;
+                    this.Connection.Close();
+            }
+            return i;
+
+        }
+
         internal DbDataReader ExecuteReader(string query)
         {
             return this.ExecuteReader(query, CommandType.Text, DBConnectionState.CloseOnExit);

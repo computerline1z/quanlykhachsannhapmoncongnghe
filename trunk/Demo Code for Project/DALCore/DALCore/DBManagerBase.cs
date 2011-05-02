@@ -11,133 +11,102 @@ namespace ModuleDALCore
     {
         protected string Connectionstring = String.Empty;
         protected DatabaseHelper DataHelpper = null;
-        protected DataSet Dataset = null;
-        protected DataTable Datatable = null;
+        private DataSet _Dataset = null;
+        protected DataSet Dataset
+        {
+            get { return _Dataset; }
+            set { _Dataset = value; }
+        }
+        private DataTable _Datatable = null;
+        protected DataTable Datatable
+        {
+            get { return _Datatable; }
+            set { _Datatable = value; }
+        }
         protected DbDataReader Datareader;
         protected bool Isopen;
         protected ProviderType ProviderType;
-
         protected DBManagerBase()
         {
-            throw new System.NotImplementedException();
         }
-
         ~DBManagerBase()
         {
-            throw new System.NotImplementedException();
         }
-
         public string ConnectionString
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this.Connectionstring;
             }
             set
             {
+                Connectionstring = value;
             }
         }
-
-        public System.Data.Common.DbConnection Connection
+        public DbConnection Connection
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                return this.DataHelpper.Connection;
             }
         }
-
         public DbCommand Command
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                return this.DataHelpper.Command;
             }
         }
-
         public ProviderType DBProvider
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this.ProviderType;
             }
             set
             {
+                this.ProviderType = value;
             }
         }
-
         public DbDataReader DBReader
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                return this.Datareader;
             }
         }
-
         public bool IsOpen
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this.Isopen;
             }
             set
             {
+                this.Isopen = value;
             }
         }
-
-        public DataSet DBset
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public DataTable DBTable
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         public void BeginTransaction()
         {
-            throw new System.NotImplementedException();
+            this.DataHelpper.BeginTransaction();
         }
-
         public void CommitTransaction()
         {
-            throw new System.NotImplementedException();
+            this.DataHelpper.CommitTransaction();
         }
-
         public void RollbackTransaction()
         {
-            throw new System.NotImplementedException();
+            this.DataHelpper.RollBackTransaction();
         }
-
         protected void Close()
         {
-            throw new System.NotImplementedException();
+            if (this.Datareader != null && this.Datareader.IsClosed)
+                this.Datareader.Close();
+            this.Datareader.Dispose();
         }
-
         protected void Open(string Connectionstring)
         {
-            throw new System.NotImplementedException();
+            this.DataHelpper = new DatabaseHelper(Connectionstring, this.ProviderType);
         }
     }
 }

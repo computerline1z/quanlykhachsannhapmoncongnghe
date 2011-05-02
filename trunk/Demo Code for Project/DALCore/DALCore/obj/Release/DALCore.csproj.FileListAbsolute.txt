@@ -1,0 +1,5 @@
+e:\Project\Demo Code for Project\DALCore\DALCore\bin\Release\DALCore.dll
+e:\Project\Demo Code for Project\DALCore\DALCore\bin\Release\DALCore.pdb
+e:\Project\Demo Code for Project\DALCore\DALCore\obj\Release\ResolveAssemblyReference.cache
+e:\Project\Demo Code for Project\DALCore\DALCore\obj\Release\DALCore.dll
+e:\Project\Demo Code for Project\DALCore\DALCore\obj\Release\DALCore.pdb

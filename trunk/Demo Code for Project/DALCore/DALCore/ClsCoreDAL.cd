@@ -7,7 +7,7 @@
       <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAABCBICAAACWAIBAIBEACAAAAAAARAAACAAAACAA=</HashCode>
+      <HashCode>AAAAABCBICAAACWAIBAIBEACAAAIAAARAAACAAAACAA=</HashCode>
       <FileName>DatabaseHelper.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -19,7 +19,7 @@
       <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAAAAAQAAAAAAAAAAAAAIAAAAAAEgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAIAAAAAAAAAAAIAAAAAAEgAAAAAA=</HashCode>
       <FileName>DbFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
