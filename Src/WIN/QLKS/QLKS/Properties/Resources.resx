@@ -127,14 +127,17 @@
   <data name="suachua" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcRight\suachua.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bill_trangthaiphong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PL\Images\UcLeft\bill_trangthaiphong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="using" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\UcRight\using.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\User_login.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_sitemap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcLink\icon_sitemap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="using" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PL\Images\UcRight\using.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Images Dyamic\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="all" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcRight\all.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +145,20 @@
   <data name="checkout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcTop\checkout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Blank map" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PL\Images\UcTop\Blank map.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="keyr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\keyr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\Icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcTop\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="using1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcRight\using1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bill_trangthaiphong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\UcLeft\bill_trangthaiphong.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bull_sitemap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcLink\bull_sitemap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,22 +175,31 @@
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcLink\background.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Background_index" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\Background_index.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcTop\Reports.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="refest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcRight\refest.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Blank map1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PL\Images\UcTop\Blank map.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo_header1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\Logo_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcRight\empty.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logo_header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\Logo_header.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\password_bg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_sitemap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PL\Images\UcLink\icon_sitemap.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PL\Images\Images Dyamic\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bt_login_page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PL\Images\Login Page\bt_login_page.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

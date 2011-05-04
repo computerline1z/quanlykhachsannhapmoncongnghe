@@ -35,11 +35,14 @@
     <Reference Include="DevExpress.Utils.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -56,6 +59,8 @@
     <Compile Include="BLL\BL\SecurityManager.cs" />
     <Compile Include="BLL\BL\Sys_AuthorizationBUS.cs" />
     <Compile Include="BLL\Common\MethodBrowsableAttribute.cs" />
+    <Compile Include="BLL\Common\MethodDescriptionAttribute.cs" />
+    <Compile Include="BLL\Common\ModuleType.cs" />
     <Compile Include="BLL\Common\Sys_AuthorizationAttribute.cs" />
     <Compile Include="BLL\Object\LT_CT_HOADON.cs" />
     <Compile Include="BLL\Object\LT_CT_PHIEUTHUE.cs" />
@@ -79,6 +84,42 @@
     <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
+    <Compile Include="PL\Form\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Login\Content.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Login\Content.Designer.cs">
+      <DependentUpon>Content.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Login\Footer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Login\Footer.Designer.cs">
+      <DependentUpon>Footer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Login\Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Login\Header.Designer.cs">
+      <DependentUpon>Header.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Login\LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Login\LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Login\LoginForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Login\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Form\frmWaiting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +206,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\Form\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Login\Content.resx">
+      <DependentUpon>Content.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Login\Footer.resx">
+      <DependentUpon>Footer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Login\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Login\LoginControl.resx">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Login\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Form\frmWaiting.resx">
       <DependentUpon>frmWaiting.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +291,14 @@
     <Content Include="PL\Images\Go Home.ico" />
     <Content Include="PL\Images\House.ico" />
     <Content Include="PL\Images\Images Dyamic\loading.gif" />
+    <Content Include="PL\Images\Login Page\bt_login_page.png" />
+    <Content Include="PL\Images\Login Page\keyr.png" />
+    <Content Include="PL\Images\Login Page\Background_index.jpg" />
+    <Content Include="PL\Images\Login Page\bannerLogin.swf" />
+    <Content Include="PL\Images\Login Page\Icon.png" />
+    <Content Include="PL\Images\Login Page\Logo_header.png" />
+    <Content Include="PL\Images\Login Page\password_bg.png" />
+    <Content Include="PL\Images\Login Page\User_login.png" />
     <Content Include="PL\Images\System Home.ico" />
     <None Include="PL\Images\UcTop\Blank map.png" />
     <Content Include="PL\Images\UcLeft\bill_menuleft.png" />
@@ -265,6 +332,24 @@
     <Content Include="PL\Images\UcTop\Payment.png" />
     <Content Include="PL\Images\UcTop\Reports.png" />
     <Content Include="PL\Images\UcTop\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\Core\" />

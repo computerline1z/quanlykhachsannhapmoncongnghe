@@ -62,3 +62,14 @@ E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmmain.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe.licenses
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Header.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.LoginControl.resources
+E:\Project\Src\WIN\QLKS\QLKS\bin\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Project\Src\WIN\QLKS\QLKS\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\Interop.ShockwaveFlashObjects.dll
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.ResolveComReference.cache
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Content.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.LoginForm.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Footer.resources
+E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmLogin.resources
