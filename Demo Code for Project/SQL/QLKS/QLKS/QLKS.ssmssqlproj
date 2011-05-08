@@ -3,8 +3,20 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="XP-E7B78E4A2745:XP-E7B78E4A2745\Admin">
-          <Created>2011-04-30T05:26:25.125+08:00</Created>
+        <ConnectionNode Name="SUM-40F319391FE:SUM-40F319391FE\Sum">
+          <Created>2011-05-08T13:41:11.5625+07:00</Created>
+          <Type>SQL</Type>
+          <Server>SUM-40F319391FE</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="XP-E7B78E4A2745:SUM-40F319391FE\Sum">
+          <Created>2011-04-30T04:26:25.125+07:00</Created>
           <Type>SQL</Type>
           <Server>XP-E7B78E4A2745</Server>
           <UserName />
@@ -20,8 +32,8 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="QLKS.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:XP-E7B78E4A2745:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>XP-E7B78E4A2745</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SUM-40F319391FE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SUM-40F319391FE</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>QLKS.sql</FullPath>
         </FileNode>
