@@ -1,0 +1,7 @@
+=========== 11h05 AM VUONG NHAT DUY ================================================
+- Da hoan thanh 90% tai lieu thiet ke
+  Chi con lai phan man hinh, nho ong Thanh chiu kho ngoi mo cai ct cua minh len chup hinh dan vo 
+  va ghi 1 vai cai control + event nua thoi. Tui hien tai ko co ct cua minh o nha
+  nen lam viec do hau nhu la khong the.
+- Hien tai D se co gang upload len moddle de phong truong hop xau la ko con ai lam.
+=====================================================================================
