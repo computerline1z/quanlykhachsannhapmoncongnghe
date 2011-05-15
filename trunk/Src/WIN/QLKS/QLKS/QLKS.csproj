@@ -86,17 +86,29 @@
     <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
-    <Compile Include="frmTraPhong.cs">
+    <Compile Include="PL\Form\frmPhieuThue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTraPhong.Designer.cs">
-      <DependentUpon>frmTraPhong.cs</DependentUpon>
+    <Compile Include="PL\Form\frmPhieuThue.Designer.cs">
+      <DependentUpon>frmPhieuThue.cs</DependentUpon>
     </Compile>
-    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.cs">
+    <Compile Include="PL\CMS\PhieuThue\ucPhieuThue.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.Designer.cs">
-      <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    <Compile Include="PL\CMS\PhieuThue\ucPhieuThue.Designer.cs">
+      <DependentUpon>ucPhieuThue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form\frmTraPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmTraPhong.Designer.cs">
+      <DependentUpon>frmTraPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcDatPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcDatPhong.Designer.cs">
+      <DependentUpon>UcDatPhong.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\CMS\TraPhong\ucTraPhong.cs">
       <SubType>UserControl</SubType>
@@ -232,11 +244,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmTraPhong.resx">
+    <EmbeddedResource Include="PL\CMS\PhieuThue\ucPhieuThue.resx">
+      <DependentUpon>ucPhieuThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmPhieuThue.resx">
+      <DependentUpon>frmPhieuThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmTraPhong.resx">
       <DependentUpon>frmTraPhong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PL\CMS\DatPhong\UcPhieuThue.resx">
-      <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    <EmbeddedResource Include="PL\CMS\DatPhong\UcDatPhong.resx">
+      <DependentUpon>UcDatPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\TraPhong\ucTraPhong.resx">
       <DependentUpon>ucTraPhong.cs</DependentUpon>

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ucPhieuThue1 = new QLKS.PL.CMS.DatPhong.UcPhieuThue();
+            this.ucPhieuThue1 = new QLKS.PL.CMS.DatPhong.UcDatPhong();
             this.lbx_DanhSachPhong = new DevExpress.XtraEditors.ListBoxControl();
             this.btn_XoaPhong = new DevExpress.XtraEditors.SimpleButton();
             this.grp_DSPhong = new DevExpress.XtraEditors.GroupControl();
@@ -100,7 +100,7 @@
 
         #endregion
 
-        private QLKS.PL.CMS.DatPhong.UcPhieuThue ucPhieuThue1;
+        private QLKS.PL.CMS.DatPhong.UcDatPhong ucPhieuThue1;
         private DevExpress.XtraEditors.ListBoxControl lbx_DanhSachPhong;
         private DevExpress.XtraEditors.SimpleButton btn_XoaPhong;
         private DevExpress.XtraEditors.GroupControl grp_DSPhong;
