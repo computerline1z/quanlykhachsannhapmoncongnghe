@@ -42,7 +42,7 @@
             this.flashaction.Location = new System.Drawing.Point(164, 0);
             this.flashaction.Name = "flashaction";
             this.flashaction.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("flashaction.OcxState")));
-            this.flashaction.Size = new System.Drawing.Size(950, 387);
+            this.flashaction.Size = new System.Drawing.Size(900, 387);
             this.flashaction.TabIndex = 0;
             // 
             // Content

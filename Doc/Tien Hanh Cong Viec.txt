@@ -1,0 +1,32 @@
+================== 09:17 AM - 15/05/2011 - Vuong Nhat Duy ===============
+Giao cho Phuong:
+	- Hien tai Duy dang thiet ke cac form chinh cua chuong trinh minh bao gom dat phong, tra phong.
+	- Nho Phuong thiet ke gium truoc form danh sach phong va loai phong.
+	- Khi nao xong viec thi bao D de giao cong viec tiep theo
+	- Tinh hinh hien tai rat gap mong Phuong co het suc de hoan thanh Project.
+Giao cho Thanh:
+	- Thanh ban cong viec nen nho thanh thiet ke gium form thong ke va he thong. 2 phan nay
+co the se ko quan trong lam trong du an. Nen lam so sai dc.
+	- Mong Thanh co thu xep cong viec hoan tat 2 form nay trong ngay hom nay.
+-------------------------------------------------------------------------
+------------------------- CONG VIEC CON LAI -----------------------------
+- Cac form con lai:
+	Nhan vien
+	Tham so
+	Quan
+	Thanh Pho
+	Quoc Gia
+	Khach Hang
+	Loai Khach Hang
+	CT_HoaDon
+	HoaDon
+	PhieuThue
+	CT_PhieuThue
+	ChucVu
+- Cac thao tac con lai:
+	Thao tac tren tat ca cac form tren.
+	Backup + Restore du lieu.
+	Ma hoa du lieu.
+
+Ps: Anh em thay co gi thieu thi bo sung vao.
+=========================================================================
