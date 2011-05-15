@@ -86,6 +86,12 @@
     <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
+    <Compile Include="PL\CMS\HoaDon\ucHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\HoaDon\ucHoaDon.Designer.cs">
+      <DependentUpon>ucHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Form\frmPhieuThue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +250,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\CMS\HoaDon\ucHoaDon.resx">
+      <DependentUpon>ucHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\PhieuThue\ucPhieuThue.resx">
       <DependentUpon>ucPhieuThue.cs</DependentUpon>
     </EmbeddedResource>
