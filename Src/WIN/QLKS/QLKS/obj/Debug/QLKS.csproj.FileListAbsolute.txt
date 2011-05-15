@@ -106,7 +106,9 @@ C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.pdb
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\Interop.ShockwaveFlashObjects.dll
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
-C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DatPhong.UcPhieuThue.resources
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmDatPhong.resources
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmTraPhong.resources
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.TraPhong.ucTraPhong.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.PhieuThue.ucPhieuThue.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.PhieuThue.frmPhieuThue.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DatPhong.UcDatPhong.resources
