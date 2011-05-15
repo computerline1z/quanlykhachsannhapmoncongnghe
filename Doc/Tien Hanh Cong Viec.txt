@@ -9,10 +9,17 @@ Giao cho Thanh:
 co the se ko quan trong lam trong du an. Nen lam so sai dc.
 	- Mong Thanh co thu xep cong viec hoan tat 2 form nay trong ngay hom nay.
 -------------------------------------------------------------------------
+
 ================== 14:58 PM - 15/05/2011 - Vuong Nhat Duy ===============
 - Da hoan tat viec thiet ke form Dat phong va TRA PHONG, hien tai D se tien hanh tiep form PHIEU THUE & CT Phieu Thue
+
 ================== 16:38 PM - 15/05/2011 - Vuong Nhat Duy ===============
 - Da hoan tat viec thiet ke form PhieuThue & CT_PhieuThue hien tai D se tien hanh tiep form HoaDon & CT_HoaDon
+
+================== 17:18 PM - 15/05/2011 - Vuong Nhat Duy ===============
+- Da hoan tat viec thiet ke fom HoaDon & CT_HoaDon hien tai D se dam nhiem them form KhachHang & LoaiKhachHang, Thong ke & He Thong.
+- Cac form con lai P dam nhiem nhe. ong Thanh ban roi. Co gang xong trong toi nay nha P. Con Code nua
+
 ------------------------- CONG VIEC CON LAI -----------------------------
 - Cac form con lai:
 	Nhan vien
@@ -20,7 +27,6 @@ co the se ko quan trong lam trong du an. Nen lam so sai dc.
 	Quan
 	Thanh Pho
 	Quoc Gia
-	Khach Hang & Loai Khach Hang
 	ChucVu
 - Cac thao tac con lai:
 	Thao tac tren tat ca cac form tren.
