@@ -86,11 +86,23 @@
     <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
+    <Compile Include="frmTraPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTraPhong.Designer.cs">
+      <DependentUpon>frmTraPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\CMS\DatPhong\UcPhieuThue.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="PL\CMS\DatPhong\UcPhieuThue.Designer.cs">
       <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\TraPhong\ucTraPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\TraPhong\ucTraPhong.Designer.cs">
+      <DependentUpon>ucTraPhong.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\Form\frmDatPhong.cs">
       <SubType>Form</SubType>
@@ -220,8 +232,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmTraPhong.resx">
+      <DependentUpon>frmTraPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\DatPhong\UcPhieuThue.resx">
       <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\TraPhong\ucTraPhong.resx">
+      <DependentUpon>ucTraPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Form\frmDatPhong.resx">
       <DependentUpon>frmDatPhong.cs</DependentUpon>
