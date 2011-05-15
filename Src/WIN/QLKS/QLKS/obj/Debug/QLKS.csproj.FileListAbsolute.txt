@@ -112,3 +112,11 @@ C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.PhieuThue.ucPhieuThue.resources
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.PhieuThue.frmPhieuThue.resources
 C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DatPhong.UcDatPhong.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmHoaDon.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.HoaDon.ucHoaDon.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.KhachHang.ucKhachHang.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.KhachHang.frmKhachHang.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DiaChi.ucQuocGia.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DiaChi.ucThanhPho.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DiaChi.uc_Quan.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DiaChi.frmDiaChi.resources
