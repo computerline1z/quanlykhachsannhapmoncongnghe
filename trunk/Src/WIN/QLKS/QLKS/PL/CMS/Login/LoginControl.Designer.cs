@@ -60,7 +60,7 @@
             this.content1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.content1.BackColor = System.Drawing.Color.Transparent;
-            this.content1.Location = new System.Drawing.Point(2, 68);
+            this.content1.Location = new System.Drawing.Point(3, 69);
             this.content1.Name = "content1";
             this.content1.Size = new System.Drawing.Size(1278, 390);
             this.content1.TabIndex = 1;

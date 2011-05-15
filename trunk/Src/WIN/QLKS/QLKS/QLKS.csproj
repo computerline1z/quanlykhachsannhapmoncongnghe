@@ -34,6 +34,8 @@
     <Reference Include="DevExpress.Data.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -84,6 +86,18 @@
     <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
+    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.Designer.cs">
+      <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form\frmDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmDatPhong.Designer.cs">
+      <DependentUpon>frmDatPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\Form\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +220,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\CMS\DatPhong\UcPhieuThue.resx">
+      <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmDatPhong.resx">
+      <DependentUpon>frmDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Form\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>

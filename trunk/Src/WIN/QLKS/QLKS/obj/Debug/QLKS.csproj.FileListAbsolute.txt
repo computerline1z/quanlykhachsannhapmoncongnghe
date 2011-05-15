@@ -73,3 +73,38 @@ E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Content.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.LoginForm.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Footer.resources
 E:\Project\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmLogin.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.ResolveComReference.cache
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.pdb
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmLogin.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Content.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Footer.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.Header.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.LoginControl.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.Login.LoginForm.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmWaiting.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcDetailRoom.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcDisplayData.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcLeftToolBar.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcListData.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcLink.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcListRoom.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcRightDetail.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcRightToolBar.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcStatusHotelToolBar.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcToolBar.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcTopToolBar.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.UcTotalDetail.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmmain.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.exe.licenses
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.exe
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\QLKS.pdb
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.PL.CMS.DatPhong.UcPhieuThue.resources
+C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\obj\Debug\QLKS.frmDatPhong.resources

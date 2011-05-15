@@ -40,7 +40,7 @@
             this.loginControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.loginControl1.Location = new System.Drawing.Point(0, 0);
             this.loginControl1.Name = "loginControl1";
-            this.loginControl1.Size = new System.Drawing.Size(1270, 661);
+            this.loginControl1.Size = new System.Drawing.Size(1028, 661);
             this.loginControl1.TabIndex = 0;
             // 
             // frmLogin
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1270, 661);
+            this.ClientSize = new System.Drawing.Size(1028, 661);
             this.ControlBox = false;
             this.Controls.Add(this.loginControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

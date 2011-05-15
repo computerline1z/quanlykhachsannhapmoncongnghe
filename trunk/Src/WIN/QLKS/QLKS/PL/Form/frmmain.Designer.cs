@@ -43,7 +43,7 @@
             this.ucRightDetail1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.ucRightDetail1.Location = new System.Drawing.Point(242, 46);
             this.ucRightDetail1.Name = "ucRightDetail1";
-            this.ucRightDetail1.Size = new System.Drawing.Size(1016, 593);
+            this.ucRightDetail1.Size = new System.Drawing.Size(774, 593);
             this.ucRightDetail1.TabIndex = 4;
             // 
             // ucLeftToolBar1
@@ -72,7 +72,7 @@
             this.ucTopToolBar1.BackColor = System.Drawing.Color.Transparent;
             this.ucTopToolBar1.Location = new System.Drawing.Point(0, 3);
             this.ucTopToolBar1.Name = "ucTopToolBar1";
-            this.ucTopToolBar1.Size = new System.Drawing.Size(1269, 51);
+            this.ucTopToolBar1.Size = new System.Drawing.Size(1027, 51);
             this.ucTopToolBar1.TabIndex = 0;
             // 
             // frmmain
@@ -80,7 +80,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1270, 657);
+            this.ClientSize = new System.Drawing.Size(1028, 657);
             this.Controls.Add(this.ucRightDetail1);
             this.Controls.Add(this.ucLeftToolBar1);
             this.Controls.Add(this.ucStatusHotelToolBar1);
