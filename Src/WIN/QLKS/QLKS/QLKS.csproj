@@ -31,14 +31,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DALCore, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Datagridview, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DgvFilterPopup, Version=1.1.0.10, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Hopthoai, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="mahoa, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MouseKeyboardLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MultiColumnCombobox, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="NumericTextBox, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core">
@@ -56,10 +64,26 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="T&amp;T Team, Version=1.0.0.10, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="ValicationCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\BL\SecurityManager.cs" />
-    <Compile Include="BLL\BL\Sys_AuthorizationBUS.cs" />
+    <Compile Include="BLL\BL\Common.cs" />
+    <Compile Include="BLL\BL\LT_LOAIKHBUS.cs" />
+    <Compile Include="BLL\BL\LT_LOAIPHONGBUS.cs" />
+    <Compile Include="BLL\BL\LT_PHONGBUS.cs" />
+    <Compile Include="BLL\BL\LT_QUANBUS.cs" />
+    <Compile Include="BLL\BL\LT_QUOCGIABUS.cs" />
+    <Compile Include="BLL\BL\LT_THAMSOBUS.cs" />
+    <Compile Include="BLL\BL\LT_THANHPHOBUS.cs" />
+    <Compile Include="BLL\BL\NS_CHUCVUBUS.cs" />
+    <Compile Include="BLL\BL\NS_NHANVIENBUS.cs" />
+    <Compile Include="BLL\BL\SecurityManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BLL\BL\Sys_AuthorizationBUS.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BLL\Common\MethodBrowsableAttribute.cs" />
     <Compile Include="BLL\Common\MethodDescriptionAttribute.cs" />
     <Compile Include="BLL\Common\ModuleType.cs" />
@@ -86,35 +110,83 @@
     <Compile Include="BLL\Object\Sys_MenuGroup.cs" />
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
-    <Compile Include="frmHoaDon.cs">
+    <Compile Include="DAL\Core\Class1.cs" />
+    <Compile Include="DAL\Core\ConvertClassToArray.cs" />
+    <Compile Include="DAL\Core\DALBase.cs" />
+    <Compile Include="DAL\DAO\LT_LOAIKHDAO.cs" />
+    <Compile Include="DAL\DAO\LT_LOAIPHONGDAO.cs" />
+    <Compile Include="DAL\DAO\LT_PHONGDAO.cs" />
+    <Compile Include="DAL\DAO\LT_QUANDAO.cs" />
+    <Compile Include="DAL\DAO\LT_QUOCGIADAO.cs" />
+    <Compile Include="DAL\DAO\LT_THAMSODAO.cs" />
+    <Compile Include="DAL\DAO\LT_THANHPHODAO.cs" />
+    <Compile Include="DAL\DAO\NS_CHUCVUDAO.cs" />
+    <Compile Include="DAL\DAO\NS_NHANVIENDAO.cs" />
+    <Compile Include="PL\CMS\Danhmuc\Chucvu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Chucvu.Designer.cs">
+      <DependentUpon>Chucvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\LoaiKH.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\LoaiKH.Designer.cs">
+      <DependentUpon>LoaiKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\LoaiPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\LoaiPhong.Designer.cs">
+      <DependentUpon>LoaiPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Phong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Phong.Designer.cs">
+      <DependentUpon>Phong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\QuocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\QuocGia.Designer.cs">
+      <DependentUpon>QuocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Thamso.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Thamso.Designer.cs">
+      <DependentUpon>Thamso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\ThanhPho.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\ThanhPho.Designer.cs">
+      <DependentUpon>ThanhPho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form\frmHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHoaDon.Designer.cs">
+    <Compile Include="PL\Form\frmHoaDon.Designer.cs">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.Designer.cs">
+      <DependentUpon>UcPhieuThue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\Toolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\UcListRoom\Toolbar.designer.cs">
+      <DependentUpon>Toolbar.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\Form\frmDiaChi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\Form\frmDiaChi.Designer.cs">
       <DependentUpon>frmDiaChi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\CMS\DiaChi\ucQuocGia.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PL\CMS\DiaChi\ucQuocGia.Designer.cs">
-      <DependentUpon>ucQuocGia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\CMS\DiaChi\ucThanhPho.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PL\CMS\DiaChi\ucThanhPho.Designer.cs">
-      <DependentUpon>ucThanhPho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\CMS\DiaChi\uc_Quan.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PL\CMS\DiaChi\uc_Quan.Designer.cs">
-      <DependentUpon>uc_Quan.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\CMS\HoaDon\ucHoaDon.cs">
       <SubType>UserControl</SubType>
@@ -290,19 +362,40 @@
     <Compile Include="PL\Form\frmmain.Designer.cs">
       <DependentUpon>frmmain.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Quan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\Quan.Designer.cs">
+      <DependentUpon>Quan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmHoaDon.resx">
+    <EmbeddedResource Include="PL\CMS\Danhmuc\Chucvu.resx">
+      <DependentUpon>Chucvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\LoaiKH.resx">
+      <DependentUpon>LoaiKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\LoaiPhong.resx">
+      <DependentUpon>LoaiPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\Phong.resx">
+      <DependentUpon>Phong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\QuocGia.resx">
+      <DependentUpon>QuocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\Thamso.resx">
+      <DependentUpon>Thamso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\ThanhPho.resx">
+      <DependentUpon>ThanhPho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PL\CMS\DiaChi\ucQuocGia.resx">
-      <DependentUpon>ucQuocGia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\CMS\DiaChi\ucThanhPho.resx">
-      <DependentUpon>ucThanhPho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\CMS\DiaChi\uc_Quan.resx">
-      <DependentUpon>uc_Quan.cs</DependentUpon>
+    <EmbeddedResource Include="PL\CMS\DatPhong\UcPhieuThue.resx">
+      <DependentUpon>UcPhieuThue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\HoaDon\ucHoaDon.resx">
       <DependentUpon>ucHoaDon.cs</DependentUpon>
@@ -312,6 +405,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\PhieuThue\ucPhieuThue.resx">
       <DependentUpon>ucPhieuThue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\UcListRoom\Toolbar.resx">
+      <DependentUpon>Toolbar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Form\frmDiaChi.resx">
       <DependentUpon>frmDiaChi.cs</DependentUpon>
@@ -394,6 +490,9 @@
     <EmbeddedResource Include="PL\Form\frmmain.resx">
       <DependentUpon>frmmain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\Quan.resx">
+      <DependentUpon>Quan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -416,6 +515,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DAL\Core\CodeVendor.Controls.dll" />
+    <Content Include="DAL\Core\DALCore.dll" />
+    <Content Include="DAL\Core\DALCore.pdb" />
+    <Content Include="DAL\Core\Datagridview.dll" />
+    <Content Include="DAL\Core\Datagridview.pdb" />
+    <Content Include="DAL\Core\Datagridview.xml" />
+    <Content Include="DAL\Core\DecimalTextBox.dll" />
+    <Content Include="DAL\Core\DgvFilterPopup.dll" />
+    <Content Include="DAL\Core\DgvFilterPopup.pdb" />
+    <Content Include="DAL\Core\DotNetSkin.SkinControls.dll" />
+    <Content Include="DAL\Core\ExportToExcel.dll" />
+    <Content Include="DAL\Core\Hopthoai.dll" />
+    <Content Include="DAL\Core\LinkTextbox.dll" />
+    <Content Include="DAL\Core\mahoa.dll" />
+    <Content Include="DAL\Core\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="DAL\Core\Microsoft.Office.Interop.Word.dll" />
+    <Content Include="DAL\Core\MouseKeyboardLibrary.dll" />
+    <Content Include="DAL\Core\MultiColumnCombobox.dll" />
+    <Content Include="DAL\Core\NumericTextBox.dll" />
+    <Content Include="DAL\Core\T&amp;T Team.dll" />
+    <Content Include="DAL\Core\TextboxCharInteger.dll" />
+    <Content Include="DAL\Core\TextboxCharInteger.pdb" />
+    <Content Include="DAL\Core\TextboxCharInteger.xml" />
+    <Content Include="DAL\Core\ValicationCore.dll" />
     <Content Include="PL\Images\Go Home.ico" />
     <Content Include="PL\Images\House.ico" />
     <Content Include="PL\Images\Images Dyamic\loading.gif" />
@@ -428,6 +551,7 @@
     <Content Include="PL\Images\Login Page\password_bg.png" />
     <Content Include="PL\Images\Login Page\User_login.png" />
     <Content Include="PL\Images\System Home.ico" />
+    <None Include="App.config" />
     <None Include="PL\Images\UcTop\Blank map.png" />
     <Content Include="PL\Images\UcLeft\bill_menuleft.png" />
     <Content Include="PL\Images\UcLeft\bill_trangthaiphong.png" />
@@ -480,10 +604,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DAL\Core\" />
-    <Folder Include="DAL\DAO\" />
     <Folder Include="DAL\Data\" />
     <Folder Include="PL\Class\" />
+    <Folder Include="PL\CMS\DiaChi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

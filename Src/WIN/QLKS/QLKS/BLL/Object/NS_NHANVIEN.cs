@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class NS_NHANVIEN
+   public class NS_NHANVIEN
     {
         private string _MANV;
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_LOAIKH
+   public class LT_LOAIKH
     {
         private string _MALKH;
 

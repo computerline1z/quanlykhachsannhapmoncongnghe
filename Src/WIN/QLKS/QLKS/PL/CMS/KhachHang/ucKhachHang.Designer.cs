@@ -29,6 +29,23 @@
         private void InitializeComponent()
         {
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.cbx_KH_Quan = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.cbx_KH_ThanhPho = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.cbx_KH_QuocGia = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_KH_DiaChi = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.btn_KH_Xoa = new DevExpress.XtraEditors.SimpleButton();
+            this.cbx_KH_MaLKH = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_KH_CMND = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_KH_Ten = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.txt_KH_Ho = new DevExpress.XtraEditors.TextEdit();
+            this.txt_KH_MaKH = new DevExpress.XtraEditors.TextEdit();
             this.txt_KH_SoDT = new DevExpress.XtraEditors.TextEdit();
             this.txt_CT_ThanhTien = new DevExpress.XtraEditors.LabelControl();
             this.txt_CT_SoNgay = new DevExpress.XtraEditors.TextEdit();
@@ -40,6 +57,7 @@
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.btn_LKH_Xoa = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.btn_LKH_Sua = new DevExpress.XtraEditors.SimpleButton();
@@ -51,26 +69,17 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.txt_LKH_MaLKH = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_KH_Ho = new DevExpress.XtraEditors.TextEdit();
-            this.txt_KH_Ten = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_KH_CMND = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.txt_KH_MaKH = new DevExpress.XtraEditors.TextEdit();
-            this.cbx_KH_MaLKH = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.btn_KH_Xoa = new DevExpress.XtraEditors.SimpleButton();
-            this.txt_KH_DiaChi = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.cbx_KH_QuocGia = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
-            this.cbx_KH_ThanhPho = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
-            this.cbx_KH_Quan = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_Quan.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_ThanhPho.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_QuocGia.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_DiaChi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_MaLKH.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_CMND.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ten.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ho.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_MaKH.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_KH_SoDT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_CT_SoNgay.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grd_KhachHang)).BeginInit();
@@ -83,15 +92,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_LKH_TenLKH.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_LKH_MaLKH.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ho.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ten.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_CMND.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_MaKH.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_MaLKH.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_DiaChi.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_QuocGia.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_ThanhPho.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_Quan.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl2
@@ -128,6 +128,155 @@
             this.groupControl2.Size = new System.Drawing.Size(960, 371);
             this.groupControl2.TabIndex = 15;
             this.groupControl2.Text = "Thông Tin Khách Hàng";
+            // 
+            // cbx_KH_Quan
+            // 
+            this.cbx_KH_Quan.Location = new System.Drawing.Point(657, 112);
+            this.cbx_KH_Quan.Name = "cbx_KH_Quan";
+            this.cbx_KH_Quan.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbx_KH_Quan.Size = new System.Drawing.Size(146, 20);
+            this.cbx_KH_Quan.TabIndex = 33;
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl12.Appearance.Options.UseFont = true;
+            this.labelControl12.Location = new System.Drawing.Point(614, 115);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(29, 15);
+            this.labelControl12.TabIndex = 32;
+            this.labelControl12.Text = "Quận:";
+            // 
+            // cbx_KH_ThanhPho
+            // 
+            this.cbx_KH_ThanhPho.Location = new System.Drawing.Point(449, 112);
+            this.cbx_KH_ThanhPho.Name = "cbx_KH_ThanhPho";
+            this.cbx_KH_ThanhPho.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbx_KH_ThanhPho.Size = new System.Drawing.Size(146, 20);
+            this.cbx_KH_ThanhPho.TabIndex = 31;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl11.Appearance.Options.UseFont = true;
+            this.labelControl11.Location = new System.Drawing.Point(380, 115);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(56, 15);
+            this.labelControl11.TabIndex = 30;
+            this.labelControl11.Text = "Thành Phố:";
+            // 
+            // cbx_KH_QuocGia
+            // 
+            this.cbx_KH_QuocGia.Location = new System.Drawing.Point(220, 113);
+            this.cbx_KH_QuocGia.Name = "cbx_KH_QuocGia";
+            this.cbx_KH_QuocGia.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbx_KH_QuocGia.Size = new System.Drawing.Size(146, 20);
+            this.cbx_KH_QuocGia.TabIndex = 29;
+            // 
+            // labelControl10
+            // 
+            this.labelControl10.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.Appearance.Options.UseFont = true;
+            this.labelControl10.Location = new System.Drawing.Point(157, 115);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(49, 15);
+            this.labelControl10.TabIndex = 28;
+            this.labelControl10.Text = "Quốc Gia:";
+            // 
+            // txt_KH_DiaChi
+            // 
+            this.txt_KH_DiaChi.Location = new System.Drawing.Point(274, 86);
+            this.txt_KH_DiaChi.Name = "txt_KH_DiaChi";
+            this.txt_KH_DiaChi.Size = new System.Drawing.Size(297, 20);
+            this.txt_KH_DiaChi.TabIndex = 27;
+            // 
+            // labelControl8
+            // 
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl8.Appearance.Options.UseFont = true;
+            this.labelControl8.Location = new System.Drawing.Point(230, 88);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(40, 15);
+            this.labelControl8.TabIndex = 26;
+            this.labelControl8.Text = "Địa Chỉ:";
+            // 
+            // btn_KH_Xoa
+            // 
+            this.btn_KH_Xoa.Location = new System.Drawing.Point(486, 331);
+            this.btn_KH_Xoa.Name = "btn_KH_Xoa";
+            this.btn_KH_Xoa.Size = new System.Drawing.Size(91, 24);
+            this.btn_KH_Xoa.TabIndex = 14;
+            this.btn_KH_Xoa.Text = "Xóa";
+            // 
+            // cbx_KH_MaLKH
+            // 
+            this.cbx_KH_MaLKH.Location = new System.Drawing.Point(315, 34);
+            this.cbx_KH_MaLKH.Name = "cbx_KH_MaLKH";
+            this.cbx_KH_MaLKH.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbx_KH_MaLKH.Size = new System.Drawing.Size(146, 20);
+            this.cbx_KH_MaLKH.TabIndex = 25;
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(212, 36);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(86, 15);
+            this.labelControl5.TabIndex = 24;
+            this.labelControl5.Text = "Loại Khách Hàng:";
+            // 
+            // txt_KH_CMND
+            // 
+            this.txt_KH_CMND.Location = new System.Drawing.Point(521, 60);
+            this.txt_KH_CMND.Name = "txt_KH_CMND";
+            this.txt_KH_CMND.Size = new System.Drawing.Size(147, 20);
+            this.txt_KH_CMND.TabIndex = 23;
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl4.Appearance.Options.UseFont = true;
+            this.labelControl4.Location = new System.Drawing.Point(463, 61);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(41, 15);
+            this.labelControl4.TabIndex = 22;
+            this.labelControl4.Text = "CMND:";
+            // 
+            // txt_KH_Ten
+            // 
+            this.txt_KH_Ten.Location = new System.Drawing.Point(274, 60);
+            this.txt_KH_Ten.Name = "txt_KH_Ten";
+            this.txt_KH_Ten.Size = new System.Drawing.Size(147, 20);
+            this.txt_KH_Ten.TabIndex = 21;
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl3.Appearance.Options.UseFont = true;
+            this.labelControl3.Location = new System.Drawing.Point(230, 62);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(22, 15);
+            this.labelControl3.TabIndex = 20;
+            this.labelControl3.Text = "Tên:";
+            // 
+            // txt_KH_Ho
+            // 
+            this.txt_KH_Ho.Location = new System.Drawing.Point(88, 60);
+            this.txt_KH_Ho.Name = "txt_KH_Ho";
+            this.txt_KH_Ho.Size = new System.Drawing.Size(115, 20);
+            this.txt_KH_Ho.TabIndex = 19;
+            // 
+            // txt_KH_MaKH
+            // 
+            this.txt_KH_MaKH.Location = new System.Drawing.Point(602, 34);
+            this.txt_KH_MaKH.Name = "txt_KH_MaKH";
+            this.txt_KH_MaKH.Size = new System.Drawing.Size(147, 20);
+            this.txt_KH_MaKH.TabIndex = 18;
             // 
             // txt_KH_SoDT
             // 
@@ -217,6 +366,16 @@
             this.labelControl9.Size = new System.Drawing.Size(18, 15);
             this.labelControl9.TabIndex = 2;
             this.labelControl9.Text = "Họ:";
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl7.Appearance.Options.UseFont = true;
+            this.labelControl7.Location = new System.Drawing.Point(494, 35);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(82, 15);
+            this.labelControl7.TabIndex = 0;
+            this.labelControl7.Text = "Mã Khách Hàng:";
             // 
             // btn_LKH_Xoa
             // 
@@ -313,165 +472,6 @@
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Mã Loại Khách Hàng:";
             // 
-            // txt_KH_Ho
-            // 
-            this.txt_KH_Ho.Location = new System.Drawing.Point(88, 60);
-            this.txt_KH_Ho.Name = "txt_KH_Ho";
-            this.txt_KH_Ho.Size = new System.Drawing.Size(115, 20);
-            this.txt_KH_Ho.TabIndex = 19;
-            // 
-            // txt_KH_Ten
-            // 
-            this.txt_KH_Ten.Location = new System.Drawing.Point(274, 60);
-            this.txt_KH_Ten.Name = "txt_KH_Ten";
-            this.txt_KH_Ten.Size = new System.Drawing.Size(147, 20);
-            this.txt_KH_Ten.TabIndex = 21;
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(230, 62);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(22, 15);
-            this.labelControl3.TabIndex = 20;
-            this.labelControl3.Text = "Tên:";
-            // 
-            // txt_KH_CMND
-            // 
-            this.txt_KH_CMND.Location = new System.Drawing.Point(521, 60);
-            this.txt_KH_CMND.Name = "txt_KH_CMND";
-            this.txt_KH_CMND.Size = new System.Drawing.Size(147, 20);
-            this.txt_KH_CMND.TabIndex = 23;
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(463, 61);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(41, 15);
-            this.labelControl4.TabIndex = 22;
-            this.labelControl4.Text = "CMND:";
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(212, 36);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(86, 15);
-            this.labelControl5.TabIndex = 24;
-            this.labelControl5.Text = "Loại Khách Hàng:";
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(494, 35);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(82, 15);
-            this.labelControl7.TabIndex = 0;
-            this.labelControl7.Text = "Mã Khách Hàng:";
-            // 
-            // txt_KH_MaKH
-            // 
-            this.txt_KH_MaKH.Location = new System.Drawing.Point(602, 34);
-            this.txt_KH_MaKH.Name = "txt_KH_MaKH";
-            this.txt_KH_MaKH.Size = new System.Drawing.Size(147, 20);
-            this.txt_KH_MaKH.TabIndex = 18;
-            // 
-            // cbx_KH_MaLKH
-            // 
-            this.cbx_KH_MaLKH.Location = new System.Drawing.Point(315, 34);
-            this.cbx_KH_MaLKH.Name = "cbx_KH_MaLKH";
-            this.cbx_KH_MaLKH.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbx_KH_MaLKH.Size = new System.Drawing.Size(146, 20);
-            this.cbx_KH_MaLKH.TabIndex = 25;
-            // 
-            // btn_KH_Xoa
-            // 
-            this.btn_KH_Xoa.Location = new System.Drawing.Point(486, 331);
-            this.btn_KH_Xoa.Name = "btn_KH_Xoa";
-            this.btn_KH_Xoa.Size = new System.Drawing.Size(91, 24);
-            this.btn_KH_Xoa.TabIndex = 14;
-            this.btn_KH_Xoa.Text = "Xóa";
-            // 
-            // txt_KH_DiaChi
-            // 
-            this.txt_KH_DiaChi.Location = new System.Drawing.Point(274, 86);
-            this.txt_KH_DiaChi.Name = "txt_KH_DiaChi";
-            this.txt_KH_DiaChi.Size = new System.Drawing.Size(297, 20);
-            this.txt_KH_DiaChi.TabIndex = 27;
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(230, 88);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(40, 15);
-            this.labelControl8.TabIndex = 26;
-            this.labelControl8.Text = "Địa Chỉ:";
-            // 
-            // cbx_KH_QuocGia
-            // 
-            this.cbx_KH_QuocGia.Location = new System.Drawing.Point(220, 113);
-            this.cbx_KH_QuocGia.Name = "cbx_KH_QuocGia";
-            this.cbx_KH_QuocGia.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbx_KH_QuocGia.Size = new System.Drawing.Size(146, 20);
-            this.cbx_KH_QuocGia.TabIndex = 29;
-            // 
-            // labelControl10
-            // 
-            this.labelControl10.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl10.Appearance.Options.UseFont = true;
-            this.labelControl10.Location = new System.Drawing.Point(157, 115);
-            this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(49, 15);
-            this.labelControl10.TabIndex = 28;
-            this.labelControl10.Text = "Quốc Gia:";
-            // 
-            // cbx_KH_ThanhPho
-            // 
-            this.cbx_KH_ThanhPho.Location = new System.Drawing.Point(449, 112);
-            this.cbx_KH_ThanhPho.Name = "cbx_KH_ThanhPho";
-            this.cbx_KH_ThanhPho.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbx_KH_ThanhPho.Size = new System.Drawing.Size(146, 20);
-            this.cbx_KH_ThanhPho.TabIndex = 31;
-            // 
-            // labelControl11
-            // 
-            this.labelControl11.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl11.Appearance.Options.UseFont = true;
-            this.labelControl11.Location = new System.Drawing.Point(380, 115);
-            this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(56, 15);
-            this.labelControl11.TabIndex = 30;
-            this.labelControl11.Text = "Thành Phố:";
-            // 
-            // cbx_KH_Quan
-            // 
-            this.cbx_KH_Quan.Location = new System.Drawing.Point(657, 112);
-            this.cbx_KH_Quan.Name = "cbx_KH_Quan";
-            this.cbx_KH_Quan.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbx_KH_Quan.Size = new System.Drawing.Size(146, 20);
-            this.cbx_KH_Quan.TabIndex = 33;
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Appearance.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl12.Appearance.Options.UseFont = true;
-            this.labelControl12.Location = new System.Drawing.Point(614, 115);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(29, 15);
-            this.labelControl12.TabIndex = 32;
-            this.labelControl12.Text = "Quận:";
-            // 
             // ucKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -484,6 +484,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_Quan.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_ThanhPho.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_QuocGia.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_DiaChi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_MaLKH.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_CMND.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ten.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ho.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_MaKH.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_KH_SoDT.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_CT_SoNgay.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grd_KhachHang)).EndInit();
@@ -497,15 +506,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_LKH_TenLKH.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_LKH_MaLKH.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ho.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_Ten.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_CMND.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_MaKH.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_MaLKH.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_KH_DiaChi.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_QuocGia.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_ThanhPho.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbx_KH_Quan.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

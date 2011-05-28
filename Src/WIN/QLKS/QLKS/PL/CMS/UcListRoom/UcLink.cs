@@ -15,5 +15,10 @@ namespace QLKS.PL.CMS
         {
             InitializeComponent();
         }
+        public void SetValues(string danhmuc, string Chucnang)
+        {
+            this.label1.Text = danhmuc;
+            this.label2.Text = Chucnang;
+        }
     }
 }

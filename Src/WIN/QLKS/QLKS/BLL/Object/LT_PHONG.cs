@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_PHONG
+   public class LT_PHONG
     {
         private string _MAPHG;
 

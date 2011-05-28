@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_LOAIPHONG
+    public class LT_LOAIPHONG
     {
         private string _MALPHG;
 
@@ -21,9 +21,9 @@ namespace QLKS.BLL.Object
             get { return _TENLPHG; }
             set { _TENLPHG = value; }
         }
-        private int _DONGIA;
+        private string _DONGIA;
 
-        public int DONGIA
+        public string DONGIA
         {
             get { return _DONGIA; }
             set { _DONGIA = value; }

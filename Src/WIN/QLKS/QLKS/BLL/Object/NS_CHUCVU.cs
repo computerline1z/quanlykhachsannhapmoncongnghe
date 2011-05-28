@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class NS_CHUCVU
+   public class NS_CHUCVU
     {
         private string _MACV;
 

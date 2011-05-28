@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_THAMSO
+    public class LT_THAMSO
     {
         private string _MATS;
 

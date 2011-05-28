@@ -10,7 +10,7 @@ using System.Windows.Forms;
 namespace QLKS.PL.CMS
 {
     public partial class UcToolBar : UserControl
-    {
+    { 
         public UcToolBar()
         {
             InitializeComponent();

@@ -117,16 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ucLink1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAASwAAAAWCAIAAAD1iTZdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALCQAA
-        CwkBEvpHPgAAAOFJREFUeF7t0MsGQgEARdHTp0dERINIg4goLlelRFKiIpFEItKkl1t66KGa9Rlnsrf9
-        BSs2XP9ECCBgFOivvowAAkYBdZcfRgABo4DaizcjgIBRQK35ixFAwCigxuzJCCBgFFBt+mAEEDAKKJw8
-        GAEEjAIKxndGAAGjgMqjGyOAgFFApcGVEUDAKKBi/8IIIGAUUKF3ZgQQMAoo3zkxAggYBZRrR4wAAkYB
-        ZVsRI4CAUUCZ5pERQMAooHT9wAggYBRQqrpnBBAwCigZ7hgBBIwCSgRbRgABo4DilQ0jgIBR4A/BqqFL
-        9lHgUgAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>
