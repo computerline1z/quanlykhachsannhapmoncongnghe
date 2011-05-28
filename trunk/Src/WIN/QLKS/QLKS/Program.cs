@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using QLKS.PL.Images.Danhmuc;
 
 namespace QLKS
 {
@@ -15,7 +16,7 @@ namespace QLKS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDatPhong());
+            Application.Run(new frmmain());
         }
     }
 }

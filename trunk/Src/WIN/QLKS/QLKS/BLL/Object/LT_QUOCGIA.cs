@@ -5,21 +5,49 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_QUOCGIA
+    public class LT_QUOCGIA
     {
-        LT_QUOCGIA() { }
+        #region ***** Fields & Properties *****
         private string _MAQG;
-        private string _TENQG;
         public string MAQG
         {
-            get { return _MAQG; }
-            set { _MAQG = value; }
+            get
+            {
+                return _MAQG;
+            }
+            set
+            {
+                _MAQG = value;
+            }
         }
+        private string _TENQG;
         public string TENQG
         {
-            get { return _TENQG; }
-            set { _TENQG = value; }
+            get
+            {
+                return _TENQG;
+            }
+            set
+            {
+                _TENQG = value;
+            }
         }
-        ~LT_QUOCGIA() { }
+        #endregion
+
+        #region ***** Init Methods *****
+        public LT_QUOCGIA()
+        {
+        }
+        public LT_QUOCGIA(string maqg)
+        {
+            this.MAQG = maqg;
+        }
+        public LT_QUOCGIA(string maqg, string tenqg)
+        {
+            this.MAQG = maqg;
+            this.TENQG = tenqg;
+        }
+        #endregion
     }
+
 }

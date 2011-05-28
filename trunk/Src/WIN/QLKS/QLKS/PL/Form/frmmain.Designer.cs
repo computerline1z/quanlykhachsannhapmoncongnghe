@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmmain));
-            this.ucRightDetail1 = new QLKS.PL.CMS.UcRightDetail();
+            this.grmain = new System.Windows.Forms.GroupBox();
             this.ucLeftToolBar1 = new QLKS.PL.CMS.UcLeftToolBar();
             this.ucStatusHotelToolBar1 = new QLKS.PL.CMS.UcStatusHotelToolBar();
             this.ucTopToolBar1 = new QLKS.PL.CMS.UcTopToolBar();
             this.SuspendLayout();
             // 
-            // ucRightDetail1
+            // grmain
             // 
-            this.ucRightDetail1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.grmain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.ucRightDetail1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
-            this.ucRightDetail1.Location = new System.Drawing.Point(242, 46);
-            this.ucRightDetail1.Name = "ucRightDetail1";
-            this.ucRightDetail1.Size = new System.Drawing.Size(774, 593);
-            this.ucRightDetail1.TabIndex = 4;
+            this.grmain.Location = new System.Drawing.Point(244, 47);
+            this.grmain.Name = "grmain";
+            this.grmain.Size = new System.Drawing.Size(783, 592);
+            this.grmain.TabIndex = 4;
+            this.grmain.TabStop = false;
             // 
             // ucLeftToolBar1
             // 
@@ -81,7 +81,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1028, 657);
-            this.Controls.Add(this.ucRightDetail1);
+            this.Controls.Add(this.grmain);
             this.Controls.Add(this.ucLeftToolBar1);
             this.Controls.Add(this.ucStatusHotelToolBar1);
             this.Controls.Add(this.ucTopToolBar1);
@@ -101,6 +101,6 @@
         private QLKS.PL.CMS.UcTopToolBar ucTopToolBar1;
         private QLKS.PL.CMS.UcStatusHotelToolBar ucStatusHotelToolBar1;
         private QLKS.PL.CMS.UcLeftToolBar ucLeftToolBar1;
-        private QLKS.PL.CMS.UcRightDetail ucRightDetail1;
+        private System.Windows.Forms.GroupBox grmain;
     }
 }

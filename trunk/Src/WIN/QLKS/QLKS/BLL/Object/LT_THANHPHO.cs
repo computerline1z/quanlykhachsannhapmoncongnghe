@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_THANHPHO
+    public class LT_THANHPHO
     {
         private string _MATP;
 

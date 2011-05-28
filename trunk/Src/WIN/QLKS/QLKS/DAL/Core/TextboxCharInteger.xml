@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TextboxCharInteger
+</name>
+</assembly>
+<members>
+<member name="T:TextboxCharInteger.HintDetailConverter">
+	<summary>
+ This is the converter for our BorderDetail type - its what makes this property collapsable
+ </summary>
+	<remarks></remarks>
+</member><member name="P:TextboxCharInteger.TextboxCharInteger.HintDetails">
+	<summary>
+ Hint Details: Color, Alignment, Text and Fade Speed
+ </summary>
+</member>
+</members>
+</doc>

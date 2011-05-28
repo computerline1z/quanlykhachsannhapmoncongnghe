@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_QUAN
+   public class LT_QUAN
     {
         private string _MAQUAN;
 
