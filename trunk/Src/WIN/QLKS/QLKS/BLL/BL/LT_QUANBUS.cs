@@ -36,6 +36,11 @@ namespace QLKS.BLL.BL
             LT_QUANDAO dao = new LT_QUANDAO();
             return dao.SelectByPK(tc);
         }
+        public static DataTable SelectByTP(LT_QUAN tc)
+        {
+            LT_QUANDAO dao = new LT_QUANDAO();
+            return dao.SelectByTP(tc);
+        }
         public static string GetID()
         {
             LT_QUANDAO dao = new LT_QUANDAO();

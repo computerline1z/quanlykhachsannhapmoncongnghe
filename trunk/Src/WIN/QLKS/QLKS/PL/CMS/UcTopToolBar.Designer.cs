@@ -100,6 +100,7 @@
             this.btncheckin.Size = new System.Drawing.Size(150, 35);
             this.btncheckin.TabIndex = 0;
             this.btncheckin.Text = "Đặt phòng";
+            this.btncheckin.Click += new System.EventHandler(this.btncheckin_Click);
             // 
             // UcTopToolBar
             // 

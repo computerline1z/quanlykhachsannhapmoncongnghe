@@ -51,6 +51,8 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
+            this.xtraTabControl1.LookAndFeel.SkinName = "Blue";
+            this.xtraTabControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
             this.xtraTabControl1.Size = new System.Drawing.Size(968, 459);
@@ -65,7 +67,7 @@
             // 
             this.xtraTabPage1.Controls.Add(this.listView1);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(961, 430);
+            this.xtraTabPage1.Size = new System.Drawing.Size(961, 431);
             this.xtraTabPage1.Text = "ALL";
             // 
             // listView1
@@ -75,7 +77,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.listView1.Location = new System.Drawing.Point(-2, -2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(965, 435);
+            this.listView1.Size = new System.Drawing.Size(965, 436);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 

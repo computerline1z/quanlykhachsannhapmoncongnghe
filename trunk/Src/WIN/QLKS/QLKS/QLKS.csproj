@@ -170,12 +170,6 @@
     <Compile Include="PL\Form\frmHoaDon.Designer.cs">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </Compile>
-    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PL\CMS\DatPhong\UcPhieuThue.Designer.cs">
-      <DependentUpon>UcPhieuThue.cs</DependentUpon>
-    </Compile>
     <Compile Include="PL\CMS\UcListRoom\Toolbar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -199,12 +193,6 @@
     </Compile>
     <Compile Include="PL\Form\frmKhachHang.Designer.cs">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\CMS\KhachHang\ucKhachHang.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="PL\CMS\KhachHang\ucKhachHang.Designer.cs">
-      <DependentUpon>ucKhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\Form\frmPhieuThue.cs">
       <SubType>Form</SubType>
@@ -394,14 +382,8 @@
     <EmbeddedResource Include="PL\Form\frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PL\CMS\DatPhong\UcPhieuThue.resx">
-      <DependentUpon>UcPhieuThue.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\HoaDon\ucHoaDon.resx">
       <DependentUpon>ucHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\CMS\KhachHang\ucKhachHang.resx">
-      <DependentUpon>ucKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\PhieuThue\ucPhieuThue.resx">
       <DependentUpon>ucPhieuThue.cs</DependentUpon>
@@ -539,51 +521,51 @@
     <Content Include="DAL\Core\TextboxCharInteger.pdb" />
     <Content Include="DAL\Core\TextboxCharInteger.xml" />
     <Content Include="DAL\Core\ValicationCore.dll" />
-    <Content Include="PL\Images\Go Home.ico" />
-    <Content Include="PL\Images\House.ico" />
-    <Content Include="PL\Images\Images Dyamic\loading.gif" />
-    <Content Include="PL\Images\Login Page\bt_login_page.png" />
-    <Content Include="PL\Images\Login Page\keyr.png" />
-    <Content Include="PL\Images\Login Page\Background_index.jpg" />
-    <Content Include="PL\Images\Login Page\bannerLogin.swf" />
-    <Content Include="PL\Images\Login Page\Icon.png" />
-    <Content Include="PL\Images\Login Page\Logo_header.png" />
-    <Content Include="PL\Images\Login Page\password_bg.png" />
-    <Content Include="PL\Images\Login Page\User_login.png" />
-    <Content Include="PL\Images\System Home.ico" />
+    <Content Include="Images\Go Home.ico" />
+    <Content Include="Images\House.ico" />
+    <Content Include="Images\Images Dyamic\loading.gif" />
+    <Content Include="Images\Login Page\bt_login_page.png" />
+    <Content Include="Images\Login Page\keyr.png" />
+    <Content Include="Images\Login Page\Background_index.jpg" />
+    <Content Include="Images\Login Page\bannerLogin.swf" />
+    <Content Include="Images\Login Page\Icon.png" />
+    <Content Include="Images\Login Page\Logo_header.png" />
+    <Content Include="Images\Login Page\password_bg.png" />
+    <Content Include="Images\Login Page\User_login.png" />
+    <Content Include="Images\System Home.ico" />
     <None Include="App.config" />
-    <None Include="PL\Images\UcTop\Blank map.png" />
-    <Content Include="PL\Images\UcLeft\bill_menuleft.png" />
-    <Content Include="PL\Images\UcLeft\bill_trangthaiphong.png" />
-    <Content Include="PL\Images\UcLink\background.png" />
-    <Content Include="PL\Images\UcLink\bull_sitemap.png" />
-    <Content Include="PL\Images\UcLink\icon_sitemap.png" />
-    <Content Include="PL\Images\UcRight\all.png" />
-    <Content Include="PL\Images\UcRight\book.png" />
-    <Content Include="PL\Images\UcRight\empty.png" />
-    <Content Include="PL\Images\UcRight\phongban.png" />
-    <Content Include="PL\Images\UcRight\refest.png" />
-    <Content Include="PL\Images\UcRight\suachua.png" />
-    <Content Include="PL\Images\UcRight\using.png" />
-    <Content Include="PL\Images\UcRight\using1.png" />
-    <Content Include="PL\Images\UcToolBar\open.ico" />
-    <Content Include="PL\Images\UcToolBar\Delete.ico" />
-    <Content Include="PL\Images\UcToolBar\edit.ico" />
-    <Content Include="PL\Images\UcToolBar\add.ico" />
-    <Content Include="PL\Images\UcToolBar\ok.ico" />
-    <Content Include="PL\Images\UcToolBar\xmag.ico" />
-    <Content Include="PL\Images\UcToolBar\button_cancel.ico" />
-    <Content Include="PL\Images\UcToolBar\Cancel.ico" />
-    <Content Include="PL\Images\UcToolBar\refresh.ico" />
-    <Content Include="PL\Images\UcToolBar\print.ico" />
-    <Content Include="PL\Images\UcToolBar\edit-clear.ico" />
-    <Content Include="PL\Images\UcToolBar\save_all.ico" />
-    <Content Include="PL\Images\UcTop\Blank map1.png" />
-    <Content Include="PL\Images\UcTop\checkin.png" />
-    <Content Include="PL\Images\UcTop\checkout.png" />
-    <Content Include="PL\Images\UcTop\Payment.png" />
-    <Content Include="PL\Images\UcTop\Reports.png" />
-    <Content Include="PL\Images\UcTop\Settings.png" />
+    <None Include="Images\UcTop\Blank map.png" />
+    <Content Include="Images\UcLeft\bill_menuleft.png" />
+    <Content Include="Images\UcLeft\bill_trangthaiphong.png" />
+    <Content Include="Images\UcLink\background.png" />
+    <Content Include="Images\UcLink\bull_sitemap.png" />
+    <Content Include="Images\UcLink\icon_sitemap.png" />
+    <Content Include="Images\UcRight\all.png" />
+    <Content Include="Images\UcRight\book.png" />
+    <Content Include="Images\UcRight\empty.png" />
+    <Content Include="Images\UcRight\phongban.png" />
+    <Content Include="Images\UcRight\refest.png" />
+    <Content Include="Images\UcRight\suachua.png" />
+    <Content Include="Images\UcRight\using.png" />
+    <Content Include="Images\UcRight\using1.png" />
+    <Content Include="Images\UcToolBar\open.ico" />
+    <Content Include="Images\UcToolBar\Delete.ico" />
+    <Content Include="Images\UcToolBar\edit.ico" />
+    <Content Include="Images\UcToolBar\add.ico" />
+    <Content Include="Images\UcToolBar\ok.ico" />
+    <Content Include="Images\UcToolBar\xmag.ico" />
+    <Content Include="Images\UcToolBar\button_cancel.ico" />
+    <Content Include="Images\UcToolBar\Cancel.ico" />
+    <Content Include="Images\UcToolBar\refresh.ico" />
+    <Content Include="Images\UcToolBar\print.ico" />
+    <Content Include="Images\UcToolBar\edit-clear.ico" />
+    <Content Include="Images\UcToolBar\save_all.ico" />
+    <Content Include="Images\UcTop\Blank map1.png" />
+    <Content Include="Images\UcTop\checkin.png" />
+    <Content Include="Images\UcTop\checkout.png" />
+    <Content Include="Images\UcTop\Payment.png" />
+    <Content Include="Images\UcTop\Reports.png" />
+    <Content Include="Images\UcTop\Settings.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxShockwaveFlashObjects">
@@ -607,6 +589,7 @@
     <Folder Include="DAL\Data\" />
     <Folder Include="PL\Class\" />
     <Folder Include="PL\CMS\DiaChi\" />
+    <Folder Include="PL\CMS\KhachHang\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

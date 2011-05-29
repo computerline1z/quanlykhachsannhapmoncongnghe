@@ -36,6 +36,11 @@ namespace QLKS.BLL.BL
             LT_THANHPHODAO dao = new LT_THANHPHODAO();
             return dao.SelectByPK(tp);
         }
+        public static DataTable SelectByQG(LT_THANHPHO tp)
+        {
+            LT_THANHPHODAO dao = new LT_THANHPHODAO();
+            return dao.SelectByQG(tp);
+        }
         public static string GetID()
         {
             LT_THANHPHODAO dao = new LT_THANHPHODAO();

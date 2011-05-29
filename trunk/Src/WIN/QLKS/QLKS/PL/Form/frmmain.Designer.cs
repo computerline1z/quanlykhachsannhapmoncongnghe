@@ -52,7 +52,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)));
             this.ucLeftToolBar1.AutoSize = true;
             this.ucLeftToolBar1.BackColor = System.Drawing.Color.Transparent;
-            this.ucLeftToolBar1.Location = new System.Drawing.Point(9, 46);
+            this.ucLeftToolBar1.Location = new System.Drawing.Point(7, 46);
             this.ucLeftToolBar1.Name = "ucLeftToolBar1";
             this.ucLeftToolBar1.Size = new System.Drawing.Size(229, 416);
             this.ucLeftToolBar1.TabIndex = 3;
