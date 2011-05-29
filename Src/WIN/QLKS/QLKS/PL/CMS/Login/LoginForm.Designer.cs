@@ -125,7 +125,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::QLKS.Properties.Resources.User_login;
+            this.pictureBox1.Image = global::QLKS.Properties.Resources._using;
             this.pictureBox1.Location = new System.Drawing.Point(3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(23, 15);

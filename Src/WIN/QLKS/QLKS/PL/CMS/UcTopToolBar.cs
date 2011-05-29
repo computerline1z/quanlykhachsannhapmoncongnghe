@@ -16,5 +16,11 @@ namespace QLKS.PL.CMS
             InitializeComponent();
         }
 
+        private void btncheckin_Click(object sender, EventArgs e)
+        {
+            frmDatPhong f = new frmDatPhong();
+            f.Show();
+        }
+
     }
 }

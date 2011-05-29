@@ -65,6 +65,17 @@ namespace QLKS.DAL.DAO
                 return null;
             }
         }
+        public DataTable SelectByTP(LT_QUAN quan)
+        {
+            try
+            {
+                return DBManager.Intance.ExecuteDataTable(SpName, ConvertClassToArray.GetParamName(quan, null), ConvertClassToArray.GetValues(quan, 6));
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public DataTable SelectALL()
         {
             quan = new LT_QUAN();

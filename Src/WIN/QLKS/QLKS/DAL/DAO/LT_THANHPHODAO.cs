@@ -78,6 +78,17 @@ namespace QLKS.DAL.DAO
                 return null;
             }
         }
+        public DataTable SelectByQG(LT_THANHPHO tp)
+        {
+            try
+            {
+                return DBManager.Intance.ExecuteDataTable(SpName, ConvertClassToArray.GetParamName(tp, null), ConvertClassToArray.GetValues(tp, 6));
+            }
+            catch
+            {
+                return null;
+            }
+        }
         public int GetID()
         {
             tp = new LT_THANHPHO();
