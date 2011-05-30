@@ -107,5 +107,10 @@ namespace QLKS.PL.CMS.DatPhong
             kh.TENKH = txt_Ten.Text;
             obj[obj.Length] = kh;
         }
+
+        private void cbx_quocgia_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

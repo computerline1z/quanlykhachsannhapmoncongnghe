@@ -42,6 +42,9 @@
     <Reference Include="DgvFilterPopup, Version=1.1.0.10, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Hopthoai, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="mahoa, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="MouseKeyboardLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
@@ -111,6 +114,7 @@
     <Compile Include="BLL\Object\Sys_MoDules.cs" />
     <Compile Include="BLL\Object\Sys_User.cs" />
     <Compile Include="DAL\Core\Class1.cs" />
+    <Compile Include="DAL\Core\ConfigSettings.cs" />
     <Compile Include="DAL\Core\ConvertClassToArray.cs" />
     <Compile Include="DAL\Core\DALBase.cs" />
     <Compile Include="DAL\DAO\LT_LOAIKHDAO.cs" />
@@ -163,6 +167,18 @@
     </Compile>
     <Compile Include="PL\CMS\Danhmuc\ThanhPho.Designer.cs">
       <DependentUpon>ThanhPho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form\frmbackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmbackup.designer.cs">
+      <DependentUpon>frmbackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Form\frmcauhinhketnoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Form\frmcauhinhketnoi.designer.cs">
+      <DependentUpon>frmcauhinhketnoi.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\Form\frmHoaDon.cs">
       <SubType>Form</SubType>
@@ -379,6 +395,12 @@
     <EmbeddedResource Include="PL\CMS\Danhmuc\ThanhPho.resx">
       <DependentUpon>ThanhPho.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmbackup.resx">
+      <DependentUpon>frmbackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Form\frmcauhinhketnoi.resx">
+      <DependentUpon>frmcauhinhketnoi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\Form\frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
@@ -580,6 +602,14 @@
       <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SQLDMO">
+      <Guid>{10010001-E260-11CF-AE68-00AA004A34D5}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
