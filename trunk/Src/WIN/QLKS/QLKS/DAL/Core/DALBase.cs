@@ -21,7 +21,7 @@ namespace QLKS.DAL.Core
         private string CreateConnectionString(string Server, string Database, string User, string Pass)
         {
             mahoa.mahoa mh = new mahoa.mahoa();
-            string server = mh.mahoadulieu(Server, true, "aeriscute");
+            string server = mh.mahoadulieu(Server, false, "aeriscute");
             string data = mh.mahoadulieu(Database, true, "aeriscute");
             string user = mh.mahoadulieu(User, true, "aeriscute");
             string pass = mh.mahoadulieu(Pass, true, "aeriscute");

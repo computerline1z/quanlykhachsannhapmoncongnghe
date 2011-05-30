@@ -291,6 +291,7 @@
             this.cbx_quocgia.Name = "cbx_quocgia";
             this.cbx_quocgia.Size = new System.Drawing.Size(196, 21);
             this.cbx_quocgia.TabIndex = 15;
+            this.cbx_quocgia.SelectedIndexChanged += new System.EventHandler(this.cbx_quocgia_SelectedIndexChanged);
             // 
             // txt_quan
             // 
