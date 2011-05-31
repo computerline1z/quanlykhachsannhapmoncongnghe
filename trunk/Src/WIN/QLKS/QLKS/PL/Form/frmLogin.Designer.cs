@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.loginControl1 = new QLKS.PL.CMS.Login.LoginControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
             // loginControl1
@@ -43,6 +44,17 @@
             this.loginControl1.Size = new System.Drawing.Size(1028, 661);
             this.loginControl1.TabIndex = 0;
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(479, 519);
+            this.simpleButton1.LookAndFeel.SkinName = "Blue";
+            this.simpleButton1.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(68, 27);
+            this.simpleButton1.TabIndex = 1;
+            this.simpleButton1.Text = "Cancel";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -50,6 +62,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1028, 661);
             this.ControlBox = false;
+            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.loginControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -66,5 +79,6 @@
         #endregion
 
         private QLKS.PL.CMS.Login.LoginControl loginControl1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

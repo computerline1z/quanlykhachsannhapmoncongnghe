@@ -90,5 +90,38 @@ namespace QLKS.DAL.DAO
                 return 0;
             }
         }
+        public DataTable SelectByLoaiPhong(LT_PHONG ph)
+        {
+            try
+            {
+                return DBManager.Intance.ExecuteDataTable(SpName, ConvertClassToArray.GetParamName(ph, null), ConvertClassToArray.GetValues(ph, 6));
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        public DataTable SelectByTinhTrang(LT_PHONG ph)
+        {
+            try
+            {
+                return DBManager.Intance.ExecuteDataTable(SpName, ConvertClassToArray.GetParamName(ph, null), ConvertClassToArray.GetValues(ph, 7));
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        public DataTable SelectByLoaiPhongnTinhTrang(LT_PHONG ph)
+        {
+            try
+            {
+                return DBManager.Intance.ExecuteDataTable(SpName, ConvertClassToArray.GetParamName(ph, null), ConvertClassToArray.GetValues(ph, 8));
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }

@@ -72,8 +72,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\BL\Common.cs" />
+    <Compile Include="BLL\BL\LT_CT_PHIEUTHUEBUS.cs" />
     <Compile Include="BLL\BL\LT_LOAIKHBUS.cs" />
     <Compile Include="BLL\BL\LT_LOAIPHONGBUS.cs" />
+    <Compile Include="BLL\BL\LT_PHIEUTHUEBUS.cs" />
     <Compile Include="BLL\BL\LT_PHONGBUS.cs" />
     <Compile Include="BLL\BL\LT_QUANBUS.cs" />
     <Compile Include="BLL\BL\LT_QUOCGIABUS.cs" />
@@ -117,8 +119,10 @@
     <Compile Include="DAL\Core\ConfigSettings.cs" />
     <Compile Include="DAL\Core\ConvertClassToArray.cs" />
     <Compile Include="DAL\Core\DALBase.cs" />
+    <Compile Include="DAL\DAO\LT_CT_PHIEUTHUEDAO.cs" />
     <Compile Include="DAL\DAO\LT_LOAIKHDAO.cs" />
     <Compile Include="DAL\DAO\LT_LOAIPHONGDAO.cs" />
+    <Compile Include="DAL\DAO\LT_PHIEUTHUEDAO.cs" />
     <Compile Include="DAL\DAO\LT_PHONGDAO.cs" />
     <Compile Include="DAL\DAO\LT_QUANDAO.cs" />
     <Compile Include="DAL\DAO\LT_QUOCGIADAO.cs" />
@@ -126,6 +130,18 @@
     <Compile Include="DAL\DAO\LT_THANHPHODAO.cs" />
     <Compile Include="DAL\DAO\NS_CHUCVUDAO.cs" />
     <Compile Include="DAL\DAO\NS_NHANVIENDAO.cs" />
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemPhong.Designer.cs">
+      <DependentUpon>frmThemPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\CMS\Danhmuc\Chucvu.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -167,6 +183,18 @@
     </Compile>
     <Compile Include="PL\CMS\Danhmuc\ThanhPho.Designer.cs">
       <DependentUpon>ThanhPho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\ucRoomList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\Danhmuc\ucRoomList.Designer.cs">
+      <DependentUpon>ucRoomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcDatPhong_ThemPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PL\CMS\DatPhong\UcDatPhong_ThemPhong.Designer.cs">
+      <DependentUpon>UcDatPhong_ThemPhong.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\Form\frmbackup.cs">
       <SubType>Form</SubType>
@@ -374,6 +402,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemPhong.resx">
+      <DependentUpon>frmThemPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\Danhmuc\Chucvu.resx">
       <DependentUpon>Chucvu.cs</DependentUpon>
     </EmbeddedResource>
@@ -394,6 +428,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\CMS\Danhmuc\ThanhPho.resx">
       <DependentUpon>ThanhPho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\Danhmuc\ucRoomList.resx">
+      <DependentUpon>ucRoomList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\CMS\DatPhong\UcDatPhong_ThemPhong.resx">
+      <DependentUpon>UcDatPhong_ThemPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Form\frmbackup.resx">
       <DependentUpon>frmbackup.cs</DependentUpon>
@@ -519,6 +559,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\QLKS.exe" />
+    <Content Include="bin\Debug\QLKS.pdb" />
     <Content Include="DAL\Core\CodeVendor.Controls.dll" />
     <Content Include="DAL\Core\DALCore.dll" />
     <Content Include="DAL\Core\DALCore.pdb" />
@@ -556,6 +598,7 @@
     <Content Include="Images\Login Page\User_login.png" />
     <Content Include="Images\System Home.ico" />
     <None Include="App.config" />
+    <None Include="bin\Debug\QLKS.exe.config" />
     <None Include="Images\UcTop\Blank map.png" />
     <Content Include="Images\UcLeft\bill_menuleft.png" />
     <Content Include="Images\UcLeft\bill_trangthaiphong.png" />
@@ -617,6 +660,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAL\Data\" />
+    <Folder Include="obj\Debug\" />
     <Folder Include="PL\Class\" />
     <Folder Include="PL\CMS\DiaChi\" />
     <Folder Include="PL\CMS\KhachHang\" />

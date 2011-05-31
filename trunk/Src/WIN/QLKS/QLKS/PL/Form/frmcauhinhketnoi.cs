@@ -58,37 +58,43 @@ namespace QLKS
         }
         void Application_Idle(object sender, EventArgs e)
         {
-            Application.Idle -= this._Handler;
-            
-            dt = SmoApplication.EnumAvailableSqlServers(false);
-            dt.PrimaryKey = new DataColumn[] { dt.Columns[0] };
-            this.cmbserver.DataSource = dt;
-            this.cmbserver.DisplayMember = "Name";
-            this.cmbserver.ValueMember = "Name";
-
-            //Set the default server
-            mh = new mahoa.mahoa();
-            string ser=ConfigSettings.ReadSetting("server"); 
-            string serverstring=mh.mahoadulieu(ser,false,"aeriscute");
-            if (!string.IsNullOrEmpty(serverstring))
+            try
             {
-                this.cmbserver.SelectedIndex = dt.Rows.IndexOf(dt.Rows.Find(serverstring));
-            }
-            else
-            {
-                this.cmbserver.SelectedIndex = 0;
-            }
+                Application.Idle -= this._Handler;
 
-            string tmpDbName = ConfigSettings.ReadSetting("dbname");
-            string tmp = mh.mahoadulieu(tmpDbName, true, "aeriscute");
-            if (!string.IsNullOrEmpty(tmp))
-            {
-                this.btnconnect_Click(this, null);
-                this.cmbdatabase.SelectedItem = tmp;
-            }
-            this.lblSyncStatus.Visible = false;
-            this.groupBox1.Enabled = true;
+                dt = SmoApplication.EnumAvailableSqlServers(false);
+                dt.PrimaryKey = new DataColumn[] { dt.Columns[0] };
+                this.cmbserver.DataSource = dt;
+                this.cmbserver.DisplayMember = "Name";
+                this.cmbserver.ValueMember = "Name";
 
+                //Set the default server
+                mh = new mahoa.mahoa();
+                string ser = ConfigSettings.ReadSetting("server");
+                string serverstring = mh.mahoadulieu(ser, true, "aeriscute");
+                if (!string.IsNullOrEmpty(serverstring))
+                {
+                    this.cmbserver.SelectedIndex = dt.Rows.IndexOf(dt.Rows.Find(serverstring));
+                }
+                else
+                {
+                    this.cmbserver.SelectedIndex = 0;
+                }
+
+                string tmpDbName = ConfigSettings.ReadSetting("dbname");
+                string tmp = mh.mahoadulieu(tmpDbName, true, "aeriscute");
+                if (!string.IsNullOrEmpty(tmp))
+                {
+                    this.btnconnect_Click(this, null);
+                    this.cmbdatabase.SelectedItem = tmp;
+                }
+                this.lblSyncStatus.Visible = false;
+                this.groupBox1.Enabled = true;
+            }
+            catch
+            {
+                
+            }
         }
         protected override void OnShown(EventArgs e)
         {
