@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcListRoom));
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
-            this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
+            this.All = new DevExpress.XtraTab.XtraTabPage();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
-            this.listView4 = new System.Windows.Forms.ListView();
-            this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
+            this.VIP = new DevExpress.XtraTab.XtraTabPage();
             this.listView3 = new System.Windows.Forms.ListView();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.Normal = new DevExpress.XtraTab.XtraTabPage();
+            this.listView2 = new System.Windows.Forms.ListView();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
-            this.xtraTabPage1.SuspendLayout();
-            this.xtraTabPage2.SuspendLayout();
-            this.xtraTabPage3.SuspendLayout();
-            this.xtraTabPage4.SuspendLayout();
+            this.All.SuspendLayout();
+            this.VIP.SuspendLayout();
+            this.Normal.SuspendLayout();
             this.SuspendLayout();
             // 
             // xtraTabControl1
@@ -54,21 +54,20 @@
             this.xtraTabControl1.LookAndFeel.SkinName = "Blue";
             this.xtraTabControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.xtraTabControl1.Name = "xtraTabControl1";
-            this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
+            this.xtraTabControl1.SelectedTabPage = this.All;
             this.xtraTabControl1.Size = new System.Drawing.Size(968, 459);
             this.xtraTabControl1.TabIndex = 0;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
-            this.xtraTabPage1,
-            this.xtraTabPage2,
-            this.xtraTabPage3,
-            this.xtraTabPage4});
+            this.All,
+            this.VIP,
+            this.Normal});
             // 
-            // xtraTabPage1
+            // All
             // 
-            this.xtraTabPage1.Controls.Add(this.listView1);
-            this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(961, 431);
-            this.xtraTabPage1.Text = "ALL";
+            this.All.Controls.Add(this.listView1);
+            this.All.Name = "All";
+            this.All.Size = new System.Drawing.Size(961, 431);
+            this.All.Text = "ALL";
             // 
             // listView1
             // 
@@ -81,48 +80,12 @@
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // xtraTabPage2
+            // VIP
             // 
-            this.xtraTabPage2.Controls.Add(this.listView2);
-            this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(961, 430);
-            this.xtraTabPage2.Text = "SINGLE ROOM";
-            // 
-            // listView2
-            // 
-            this.listView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.listView2.Location = new System.Drawing.Point(-2, -2);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(965, 435);
-            this.listView2.TabIndex = 0;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            // 
-            // xtraTabPage3
-            // 
-            this.xtraTabPage3.Controls.Add(this.listView4);
-            this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(961, 430);
-            this.xtraTabPage3.Text = "DOUBLE ROOM";
-            // 
-            // listView4
-            // 
-            this.listView4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.listView4.Location = new System.Drawing.Point(-2, -2);
-            this.listView4.Name = "listView4";
-            this.listView4.Size = new System.Drawing.Size(965, 435);
-            this.listView4.TabIndex = 1;
-            this.listView4.UseCompatibleStateImageBehavior = false;
-            // 
-            // xtraTabPage4
-            // 
-            this.xtraTabPage4.Controls.Add(this.listView3);
-            this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(961, 430);
-            this.xtraTabPage4.Text = "VIP";
+            this.VIP.Controls.Add(this.listView3);
+            this.VIP.Name = "VIP";
+            this.VIP.Size = new System.Drawing.Size(961, 431);
+            this.VIP.Text = "VIP";
             // 
             // listView3
             // 
@@ -135,6 +98,31 @@
             this.listView3.TabIndex = 0;
             this.listView3.UseCompatibleStateImageBehavior = false;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "using.png");
+            this.imageList1.Images.SetKeyName(1, "empty.png");
+            // 
+            // Normal
+            // 
+            this.Normal.Controls.Add(this.listView2);
+            this.Normal.Name = "Normal";
+            this.Normal.Size = new System.Drawing.Size(961, 431);
+            this.Normal.Text = "Normal";
+            // 
+            // listView2
+            // 
+            this.listView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listView2.Location = new System.Drawing.Point(-2, -3);
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(965, 436);
+            this.listView2.TabIndex = 1;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            // 
             // UcListRoom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -145,10 +133,9 @@
             this.Size = new System.Drawing.Size(968, 462);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
-            this.xtraTabPage1.ResumeLayout(false);
-            this.xtraTabPage2.ResumeLayout(false);
-            this.xtraTabPage3.ResumeLayout(false);
-            this.xtraTabPage4.ResumeLayout(false);
+            this.All.ResumeLayout(false);
+            this.VIP.ResumeLayout(false);
+            this.Normal.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -156,14 +143,13 @@
         #endregion
 
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
+        private DevExpress.XtraTab.XtraTabPage All;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ListView listView2;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPage3;
-        private System.Windows.Forms.ListView listView4;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPage4;
+        private DevExpress.XtraTab.XtraTabPage VIP;
         private System.Windows.Forms.ListView listView3;
+        private DevExpress.XtraTab.XtraTabPage Normal;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ListView listView2;
 
     }
 }

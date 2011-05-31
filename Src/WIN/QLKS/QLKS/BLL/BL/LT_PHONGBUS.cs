@@ -41,5 +41,20 @@ namespace QLKS.BLL.BL
             LT_PHONGDAO dao = new LT_PHONGDAO();
             return "PHG" + dao.GetID().ToString();
         }
+        public static DataTable SelectByLoaiPhong(LT_PHONG objPhong)
+        {
+            LT_PHONGDAO dao = new LT_PHONGDAO();
+            return dao.SelectByLoaiPhong(objPhong);
+        }
+        public static DataTable SelectByTinhTrang(LT_PHONG objPhong)
+        {
+            LT_PHONGDAO dao = new LT_PHONGDAO();
+            return dao.SelectByTinhTrang(objPhong);
+        }
+        public static DataTable SelectByLoaiPhongnTinhTrang(LT_PHONG objPhong)
+        {
+            LT_PHONGDAO dao = new LT_PHONGDAO();
+            return dao.SelectByLoaiPhongnTinhTrang(objPhong);
+        }
     }
 }

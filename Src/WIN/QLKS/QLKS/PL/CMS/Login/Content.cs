@@ -20,14 +20,14 @@ namespace QLKS.PL.CMS.Login
         {
             try
             {
-                flashaction.Movie=@"E:\Project\Src\WIN\QLKS\QLKS\PL\Images\Login Page\bannerLogin.swf";
+                flashaction.Movie = @"C:\Documents and Settings\Sum\Desktop\Test SVN\Src\WIN\QLKS\QLKS\PL\Images\Login Page\bannerLogin.swf";
                 flashaction.WMode = "Transparent"; 
                 
             }
             catch (Exception ex)
             {
 
-                throw new InvalidProgramException("can't display flast!"+ex.Message.ToString()) ;
+                throw new InvalidProgramException("can't display flash!"+ex.Message.ToString()) ;
             }
         }
     }

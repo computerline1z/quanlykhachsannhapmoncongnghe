@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QLKS.BLL.Object
 {
-    class LT_PHIEUTHUE
+    public class LT_PHIEUTHUE
     {
         private string _MAPT;
 

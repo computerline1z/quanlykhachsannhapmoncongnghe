@@ -28,5 +28,13 @@ namespace QLKS
             }
                 
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(this, "Do you want quit?", "Infomation", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

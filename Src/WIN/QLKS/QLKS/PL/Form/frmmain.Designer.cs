@@ -30,9 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmmain));
             this.grmain = new System.Windows.Forms.GroupBox();
+            this.ucDetailRoom1 = new QLKS.PL.CMS.UcDetailRoom();
             this.ucLeftToolBar1 = new QLKS.PL.CMS.UcLeftToolBar();
             this.ucStatusHotelToolBar1 = new QLKS.PL.CMS.UcStatusHotelToolBar();
             this.ucTopToolBar1 = new QLKS.PL.CMS.UcTopToolBar();
+            this.ucRoomList1 = new QLKS.PL.CMS.Danhmuc.ucRoomList();
+            this.grmain.SuspendLayout();
             this.SuspendLayout();
             // 
             // grmain
@@ -40,11 +43,21 @@
             this.grmain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.grmain.Location = new System.Drawing.Point(244, 47);
+            this.grmain.Controls.Add(this.ucRoomList1);
+            this.grmain.Controls.Add(this.ucDetailRoom1);
+            this.grmain.Location = new System.Drawing.Point(240, 48);
             this.grmain.Name = "grmain";
             this.grmain.Size = new System.Drawing.Size(783, 592);
             this.grmain.TabIndex = 4;
             this.grmain.TabStop = false;
+            // 
+            // ucDetailRoom1
+            // 
+            this.ucDetailRoom1.BackColor = System.Drawing.Color.Transparent;
+            this.ucDetailRoom1.Location = new System.Drawing.Point(-2, 487);
+            this.ucDetailRoom1.Name = "ucDetailRoom1";
+            this.ucDetailRoom1.Size = new System.Drawing.Size(796, 99);
+            this.ucDetailRoom1.TabIndex = 1;
             // 
             // ucLeftToolBar1
             // 
@@ -75,6 +88,13 @@
             this.ucTopToolBar1.Size = new System.Drawing.Size(1027, 51);
             this.ucTopToolBar1.TabIndex = 0;
             // 
+            // ucRoomList1
+            // 
+            this.ucRoomList1.Location = new System.Drawing.Point(6, 12);
+            this.ucRoomList1.Name = "ucRoomList1";
+            this.ucRoomList1.Size = new System.Drawing.Size(770, 469);
+            this.ucRoomList1.TabIndex = 2;
+            // 
             // frmmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -91,6 +111,7 @@
             this.Text = "  Hotel Systems";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmmain_Load);
+            this.grmain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -102,5 +123,7 @@
         private QLKS.PL.CMS.UcStatusHotelToolBar ucStatusHotelToolBar1;
         private QLKS.PL.CMS.UcLeftToolBar ucLeftToolBar1;
         private System.Windows.Forms.GroupBox grmain;
+        private QLKS.PL.CMS.UcDetailRoom ucDetailRoom1;
+        private QLKS.PL.CMS.Danhmuc.ucRoomList ucRoomList1;
     }
 }
